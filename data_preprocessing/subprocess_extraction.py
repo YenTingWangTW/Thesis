@@ -1,6 +1,5 @@
 import glob
 import json
-import re
 import numpy as np
 from processing_functions import load_JSON, sort_process_flows 
 
