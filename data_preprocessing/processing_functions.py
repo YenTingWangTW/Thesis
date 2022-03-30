@@ -13,8 +13,8 @@ def load_JSON(path_to_json, extract_subprocess = False):
             print('no elements in '+path_to_json)
             return {}
         elif extract_subprocess:
-            subprocess = process_subprocess(json_data['childShapes']) 
-            return subprocess
+                (shapes_id, follows, flow), subprocess_name = process_subprocess_no_label(json_data['childShapes'])
+                return shapes_id, follows, flow, subprocess_name
         elif pool_exist(path_to_json):
             (shapes_id, follows, lanes), pools = process_pools_and_lanes(json_data['childShapes'])
             return shapes_id, follows, lanes, pools
@@ -33,6 +33,34 @@ def pool_exist(path_to_json):
         else:
             return False     
 
+
+def process_subprocess_no_label(shapes):
+    shapes_id = {}
+    follows = {}
+    flow = {}
+    subprocess_name = ""
+    outputs = [shapes_id, follows, flow]
+    for shape in shapes:
+        shape_stencil = shape['stencil']['id']
+        shape_ID = shape['resourceId']
+        if shape_stencil == 'SequenceFlow':
+            outgoingShapes = [s['resourceId'] for s in shape['outgoing']]
+            if shape_ID not in follows.keys():
+                follows[shape_ID] = outgoingShapes
+            
+        if shape_stencil in ['Pool', 'Lane']:
+            results = process_subprocess(shape['childShapes'])
+            for o, r in zip(outputs, results):
+                o.update(r)
+                
+        if shape_stencil == 'Subprocess':
+            results = process_flow(shape['childShapes'])
+            for o, r in zip(outputs, results):
+                o.update(r)
+            if 'name' in shape['properties'] and not shape['properties']['name'] == "":
+                subprocess_name = shape['properties']['name'].replace('\n', ' ').replace('\r', '').replace('  ', ' ')
+            
+    return outputs, subprocess_name
 
 def process_subprocess(shapes):
     subprocess = {}
@@ -167,7 +195,7 @@ def process_pools_and_lanes(shapes):
 
 def sort_process_flows(flow, directly_follows, shapes_wanted, gateways_count, temp_closing_count):
     process_flow = []
-    
+
     for flow_object in flow:
         if flow_object in shapes_wanted and flow_object not in temp_closing_count.keys():
             process_flow.append(flow_object)

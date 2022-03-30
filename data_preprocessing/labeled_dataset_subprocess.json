@@ -1,0 +1,229 @@
+{
+    "document": {
+        "298551572": [
+            ["arrange invoices by priority  (high first)", "validate invoice", "mark \"invoice entered correctly\" checkbox", "set sap invoice status from \"parked\" to \"\"validated\"", "forward invoices to the registry"]
+        ],
+        "988384251": [
+            ["find customer"]
+        ],
+        "1943637279": [
+            ["select paid invoices", "archive invoices per payment date", "archive invoices per vendor"]
+        ],
+        "594748687": [
+            ["required new master record", "complete vendor master record request form", "staple with invoice", "put in dedicated outbox"]
+        ],
+        "16184396": [
+            ["book funds", "maintain transaction", "cancel"]
+        ],
+        "2009977896": [
+            ["sort invoices per client ", "sort invoice per vendor", "per minute", "stable erntry form to invoice"]
+        ],
+        "990055905": [
+            ["set low priority", "set high priority", "stamp invoice"]
+        ],
+        "923737321": [
+            ["experiment with lock keeper", "experiment with soa security"]
+        ],
+        "696621953": [
+            ["moderate discussion", "discuss issue", "create session protocol", "summarize session"]
+        ],
+        "924160287": [
+            ["sort invoices", "keep as 'non urgent' batch", "check if all information is available", "keep as 'urgent & non-compliant batch'", "check for red stamped urgent", "keep as returned from validation officer batch", "keep as 'urgent & compliant batch'"]
+        ],
+        "114696846": [
+            ["staple invoice entry form to invoice", "enter vendor name", "enter client name", "enter date of arrival"]
+        ],
+        "1666082353": [
+            ["display previous position profiles created for role", "view sample position profiles", "create position profile", "modify position profile to suit", "display recent union and role specific changes", "sample role specific terms and conditions displayed", "modify terms and conditions to suit", "review documents", "fill in position contact information"]
+        ],
+        "136641527": [
+            ["re-sorting invoices per vendor", "re-sorting by invoice amount", "allocate in separate batches", "enter invoice", "tick \"invoice entered\"box", "invoice \"sparked\""]
+        ],
+        "1900005796": [
+            ["check urgency", "enter immediately", "put in high priority outbox", "information not available", "process normally"]
+        ],
+        "94639019": [
+            ["sort invoices per client", "sort invoices per vendors", "staple ief"]
+        ],
+        "1627409593": [
+            ["start", "complete questionnaire for heart attack risk assessment (t10)", "assess cardiovascular risk (t11)", "display/explain assessment results (t12)", "end", "see cardiologist (t13)", "further assessment (t14)", "manage blood lipid (sp7)", "anti-thrombotic therapy (sp9)", "manage blood pressure (sp8)", "end"]
+        ],
+        "759444129": [
+            ["check compliance", "send to experienced ssp", "call client for required information", "return invoice to client", "invoice back from client", "send to staff member atthe beginning", "batch and allocate to data entry officer"]
+        ],
+        "1455383864": [
+            ["call client", "get update information", "update invoice", "return invoice via post", "check if response arrived", "send reminder"]
+        ],
+        "568030606": [
+            ["store archival data", "save results"]
+        ],
+        "1745058074": [
+            ["book bus", "book hotel"]
+        ],
+        "440062101": [
+            ["look up vendor", "create and complete new vendor master record request form", "staple with invoice", "put in dedicated outbox", "new vendor master record received", "add vendor number to invoice entry form"]
+        ],
+        "1849808459": [
+            ["enter vendoe", "enter client", "enter date of arrive", "check completeness", "ticks invoice complete box", "enter date of process ", "return to postmail to send it to client"]
+        ],
+        "663814305": [
+            ["enter details", "check completeness", "tick complete box", "check sla arrangements in excel ", "enter invoicing processing date", "entry form completed"]
+        ],
+        "77036772": [
+            ["create job advertisement", "send advert to other agencies", "publish adverts on job sites"]
+        ],
+        "1056720200": [
+            ["delay 48h", "e-mail vote deadline warning", "delay 24h", "close voting", "moderate voting discussiion", "monitor issue votes"]
+        ],
+        "231942911": [
+            ["credentials retrieved", "validate username", "invalid username", "set attempts counter to 0"]
+        ],
+        "1083445328": [
+            ["fuzzy match", "exact match"],
+            ["by location", "by date", "by document type", "by language", "by author", "by category", "no filters"]
+        ],
+        "2021820568": [
+            ["add document", "delete document", "edit attributes of document"],
+            ["categorize", "add document", "remove document"]
+        ],
+        "59584027": [
+            ["check application for basic completeness", "sort applications", "disregard application", "add to rejection notification que"]
+        ],
+        "278446714": [
+            ["request new vendor master record", "stapled form into dedicated sap outbox", "provide master record forms to master data entry staff"]
+        ],
+        "2125236316": [
+            ["2 minutes per invoice", "check completeness of invoices", "tick no in relervant box", "return invoices to client ", "tick yes in relervant box", "check slas ", "look up in excel file", "enter processed date", "highlighted invoices"]
+        ],
+        "1070811881": [
+            ["sort invioces by priority", "process immediately ", "process non-urgent invoices", "invoices into high priority out-box"]
+        ],
+        "1457857995": [
+            ["enter invoice", "check invoice mismatches", "block invoice"]
+        ],
+        "1241249804": [
+            ["database backup", "shrink database backup", "write log-record entry"]
+        ],
+        "515383757": [
+            ["personal preferences (t21)", "healthy menu program (t23)", "jogging program (t22)"]
+        ],
+        "1685674752": [
+            ["process external users applications", "update statistics"]
+        ],
+        "870623884": [
+            ["stock availability checked", "check raw materials availability", "retrieve suppliers list", "purchase raw materials from supplier", "raw materials acquired", "materials unavailable"],
+            ["stock availability checked", "check raw materials availability", "retrieve suppliers list", "purchase raw materials from supplier", "raw materials acquired", "materials unavailable"]
+        ],
+        "809883750": [
+            ["compare details with paper invoices", "error found"]
+        ],
+        "1174437839": [
+            ["analyze proposal", "add new issue", "cancel proposal"]
+        ],
+        "454566392": [
+            []
+        ],
+        "1742275842": [
+            ["insert login", "insert password", "verify"],
+            ["insert email", "send request for password"]
+        ],
+        "1532414623": [
+            ["review customer rating", "review profitability"]
+        ],
+        "755706928": [
+            ["health issue =heart disease", "heart disease guideline"],
+            ["health issue =chronic cough", "chronic cough guideline"]
+        ],
+        "463114081": [
+            ["insert personal data", "insert login and password", "accept terms of use", "send registration request", "registration error"]
+        ],
+        "1563731835": [
+            ["invoice received", "open & categorise invoices", "send invoice(s) to admin officer(s)"]
+        ],
+        "1976110816": [
+            ["analyze proposal", "add new issue"]
+        ],
+        "655016606": [
+            ["change password", "change ???", "accept changes"]
+        ],
+        "318538442": [
+            ["post twitter  message", "login needed", "already logged in", "autogenerate tweet (photoinformation)", "provide own tweet"]
+        ],
+        "1584946700": [
+            ["book hotel", "book bus"]
+        ],
+        "1968047195": [
+            []
+        ],
+        "277720178": [
+            ["coffee time"]
+        ],
+        "45067321": [
+            ["lookup sap vendor number", "add sap vendor number to invoice entry form", "create request for new vendor master record", "fill in new vendor master record form", "move invoice to vendor master record request outbox"]
+        ],
+        "1067525216": [
+            ["start", "physical exam and diagnostic testing (t14)", "measure left-ventricular function (t15)", "consider diastolic dysfunction (t16)", "consider systolic dysfunction (t17)", "end", "end"],
+            ["start", "initial evaluation (t7)", "patient and family consulting (t8)", "assess adherence and reevaluate treatment plan (t11)", "monitor patient (t12)", "refer for evaluation for heart transplant (t13)", "pharmacological management (t10)", "assess adherence and reevaluate treatment plan (t11)", "refer for evaluation for heart transplant (t13)", "evaluation and treatment of coronary artery disease (t9) ", "assess adherence and reevaluate treatment plan (t11)", "refer for evaluation for heart transplant (t13)", "end"]
+        ],
+        "805167653": [
+            ["add vendor to ief", "tick invoice", "change status to \"parked\"", "put in department outbox"]
+        ]
+    },
+    "subprocess_names": {
+        "298551572": "complete validation",
+        "988384251": "",
+        "1943637279": "archive invoice(s)",
+        "594748687": "request new vendor record",
+        "16184396": "process transaction",
+        "2009977896": "invoice sorting ",
+        "990055905": "confirm urgency",
+        "923737321": "search for a phd topic",
+        "696621953": "conference session",
+        "924160287": "determine invoice priority",
+        "114696846": "",
+        "1666082353": "",
+        "136641527": "invoice entry process ",
+        "1900005796": "check urgency",
+        "94639019": "sort invoices",
+        "1627409593": "subprocess: assess and manage cardiovascular risks (sp4)",
+        "759444129": "check compliance",
+        "1455383864": "deal with non-compliant invoice",
+        "568030606": "store data",
+        "1745058074": "",
+        "440062101": "generate vendor master record ",
+        "1849808459": "fill ief",
+        "663814305": "complete invoice",
+        "77036772": "",
+        "1056720200": "collect votes",
+        "231942911": "log in",
+        "1083445328": "choose seach type",
+        "2021820568": "manage others",
+        "59584027": "",
+        "278446714": "request vendor master record",
+        "2125236316": "check for invoice completion ",
+        "1070811881": "sort invoice priority",
+        "1457857995": "",
+        "1241249804": "",
+        "515383757": "assess and manage long term complications (sp5)",
+        "1685674752": "manage external members",
+        "870623884": "acquire raw materials",
+        "809883750": " invoice validation (process) ",
+        "1174437839": "prepare internal data",
+        "454566392": "verify pro",
+        "1742275842": "",
+        "1532414623": "review sales lead",
+        "755706928": "",
+        "463114081": "fullfil form",
+        "1563731835": "process incoming mail",
+        "1976110816": "prepare internal data",
+        "655016606": "edit",
+        "318538442": "",
+        "1584946700": "transaction booking",
+        "1968047195": "",
+        "277720178": "",
+        "45067321": "",
+        "1067525216": "a subprocess representing the guideline for initial evaluation of patients with heart failure (adopted from ahrq)",
+        "805167653": "enter invoices"
+    },
+    "models_skipped": []
+}

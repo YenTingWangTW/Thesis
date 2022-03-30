@@ -10,7 +10,7 @@
             ["get up", "eat breakfast", "shower", "get on bus", "continue sleeping"]
         ],
         "2036707256": [
-            ["customer orders quote ", "sales manager receives quote", "sales manager verifies quotes using vp of sales guide lines and help from sales assistant", "sales manager delivers verified quote to engineering department", "sales assistant returns quote to customer for more information if quote did not fit guild lines ", "customer provides more information", "engineering department analyzes the customer\u2019s request", "engineering department based on past data and volume estimates, produces an estimate of the labor and materials costs to complete the job", "finance department labor and materials costs are added to volume estimates", "finance department whereby overhead costs are added and , midrange, and high pricing", "minimum price range", "high price range", "mid price range", "sales manager reviews price options and picks best one", "quote delivered to customer for acceptance or rejected "]
+            ["customer orders quote", "sales manager receives quote", "sales manager verifies quotes using vp of sales guide lines and help from sales assistant", "sales manager delivers verified quote to engineering department", "sales assistant returns quote to customer for more information if quote did not fit guild lines", "customer provides more information", "engineering department analyzes the customer\u2019s request", "engineering department based on past data and volume estimates, produces an estimate of the labor and materials costs to complete the job", "finance department labor and materials costs are added to volume estimates", "finance department whereby overhead costs are added and , midrange, and high pricing", "minimum price range", "high price range", "mid price range", "sales manager reviews price options and picks best one", "quote delivered to customer for acceptance or rejected "]
         ],
         "786320979": [
             ["sort invoice by vendor", "attach invoice entry form", "complete invoice entry form", "check invoice completeness", "invoice complete", "invoice incomplete"]
@@ -31,9 +31,7 @@
             ["verifying the contents", "perform quality inspection", "wrong material", "store the materials in the right location"]
         ],
         "1439289734": [
-            ["claim lodged via internet"],
-            ["claim lodged at branch"],
-            ["claim lodged over phone", "check claim policy ", "check customer information", "accept claim", "claim accepted", "reject claim", "claim rejected"]
+            ["claim lodged via internet", "claim lodged at branch", "claim lodged over phone", "check claim policy", "check customer information", "accept claim", "claim accepted", "reject claim", "claim rejected"]
         ],
         "749623106": [
             ["create purchase order request", "analyze purchase order request", "confirm product order (based on availability and time frame)", "send status of availability", "send status and reason for un-availability"]
@@ -47,7 +45,9 @@
         "1561879068": [
             ["visitor fills out registration-form", "check availability of products", "check credit rating at schufa", "creating interim customer dataset record", "device provision process", "register customer account at isp nodes", "create and send welcome-package", "successful customer registration", "unsuccessful customer registration"]
         ],
-        "298551572": [],
+        "298551572": [
+            ["arrange invoices by priority  (high first)", "validate invoice", "mark \"invoice entered correctly\" checkbox", "set sap invoice status from \"parked\" to \"\"validated\"", "forward invoices to the registry"]
+        ],
         "1527754134": [
             ["verifying the contents", "perform quality inspection", "store the materials in the right location", "problem reported"]
         ],
@@ -55,27 +55,31 @@
             ["check customer id", "provide additional customer information", "find customer", "create a new customer entry", "add sales opportunity"]
         ],
         "1734131365": [
-            []
+            ["enter contact details", "enter travellers details", "amend baggage information", "check entered information", "confirm details and continue"]
         ],
         "916522927": [
-            ["receive order", "check order", "send rejection", "inform engineering department", "prepare assembling tools", "inform storehouse department", "task or subprocess", "assemble bicycle", "ship bicycle"]
+            ["receive order", "check order", "send rejection", "inform engineering department", "prepare assembling tools", "inform storehouse department", "process order item list", "reserve parts", "order missing item", "assemble bicycle", "ship bicycle"]
         ],
         "1263379673": [
             ["check information", "phone applicant for information", "add incoming mail number & date", "record", "archive"]
         ],
         "1000192834": [
-            ["insurance \"emergency\""]
+            ["insurance \"emergency\"", "analyze insurance agreement", "offer immediate help", "do internal accounting", "ask for rejection notification", "send out offer for emergency help"]
         ],
         "1964789590": [
             ["order received", "check availability", "procurement", "late delivery", "inform customer", "customer informed", "undeliverable", "inform customer", "remove article from calatogue", "article removed", "ship article", "financial settlement", "payment received"]
         ],
         "238678135": [
-            []
+            ["enter email address", "re-enter email address", "enter name", "enter desired password", "re-enter desired password", "welcome screen"]
         ],
-        "1943637279": [],
-        "594748687": [],
+        "1943637279": [
+            ["select paid invoices", "archive invoices per payment date", "archive invoices per vendor"]
+        ],
+        "594748687": [
+            ["required new master record", "complete vendor master record request form", "staple with invoice", "put in dedicated outbox"]
+        ],
         "794858910": [
-            ["capture data from fma", "capture data from jamendo"]
+            ["capture data from fma", "capture data from jamendo", "get music ids for genre", "download sample"]
         ],
         "1693450257": [
             [" analyze order", "check stock", "make products", "ship products", "send bill", "receive payment"]
@@ -84,13 +88,17 @@
             ["evaluate creditscore", "evaluate incometopaymentratio", "calculate creditrisk", "evaluate loanapproval", "loan approved", "loan rejected"]
         ],
         "16184396": [
-            ["request login", "verify data", "incorrect login data ", "login accepted", "request transaction", "process transaction", "cancel", "failure", "success", "10min", "session expired"]
+            ["request login", "verify data", "incorrect login data", "login accepted", "request transaction", "process transaction", "cancel", "failure", "success", "10min", "session expired"]
         ],
         "111012078": [
             ["wait for application form", "make assessment", "offer mortgage", "send rejection"]
         ],
-        "2009977896": [],
-        "990055905": [],
+        "2009977896": [
+            ["sort invoices per client", "sort invoice per vendor", "per minute", "stable erntry form to invoice"]
+        ],
+        "990055905": [
+            ["set low priority", "set high priority", "stamp invoice"]
+        ],
         "1914599328": [
             ["formulate problem", "find possible solutions", "choose document", "contact expert including content sharing"]
         ],
@@ -104,14 +112,13 @@
             ["check credit history", "property survey", "property title search"]
         ],
         "2008798269": [
-            ["symptom for hypertension"]
+            ["symptom for hypertension", "measure blood pressure", "hypertension not diagnosed", "review at least 5-yearly", "hypertension suspected", "specialist investigation", "consider immediate drug treatment", "assessment and confirm diagnosis", "management of hypertension", "review annually"]
         ],
         "628975025": [
             ["scan order list manually", "validate supply", "check product supplier", "list product ordered"]
         ],
         "521537224": [
-            ["extract work orders", "load work orders", "pull together work order report", "extract inspection orders", "load inspection orders", "pull together inspection order report", "extract notifications", "load notifications", "pull together notification report", "link to reports from ppt", "create and send e-mail", "whisky"],
-            ["500 at a time"]
+            ["extract work orders", "load work orders", "pull together work order report", "extract inspection orders", "500 at a time", "load inspection orders", "pull together inspection order report", "extract notifications", "load notifications", "pull together notification report", "link to reports from ppt", "create and send e-mail", "whisky"]
         ],
         "537238192": [
             ["registrate offer loss", "register opportunity loss", "register competitor information", "reception signed offer"]
@@ -120,10 +127,10 @@
             ["receive order", "handle order", "process order summary", "update customer file"]
         ],
         "181992691": [
-            ["ministerial enquiry received", "assign ministerial enquiry", "investigate ministerial enquiry"]
+            ["ministerial enquiry received", "assign ministerial enquiry", "investigate ministerial enquiry", "prepare ministerial response", "review ministerial response", "ministerial correspondence addressed"]
         ],
         "1757172442": [
-            ["reperation"]
+            ["reperation", "check and repair hardware", "test", "new arbitrary repair activity", "check and configures software", "test", "new arbitrary repair activity", "give repaired computer to client", "computer is made"]
         ],
         "1904853542": [
             ["downpayment request approved", "enter downpayment request into the system", "pay downpayment automatically", "emit direct invoice", "clear vendor line items", "pay balance", "balance paid", "process arrears", "arrears processed"]
@@ -135,14 +142,13 @@
             ["client sends a content request", "client request enters dmz", "client authentication", "request is forwarded through to content server", "content server retrieves item from data storage", "content is sent to web server", "web server displays requested content for client", "server sends client notification of failed authentication"]
         ],
         "1809754091": [
-            [],
             ["check part quantity", "reserve part", "back order"]
         ],
         "2115715936": [
             ["loan application received", "check application form completeness", "return application back to applicant", "receive updated application", "form checked"]
         ],
         "923737321": [
-            ["search for a phd topic"]
+            ["search for a phd topic", "experiment with lock keeper", "experiment with soa security", "write a paper", "go to a conference", "write thesis", "submit thesis", "defend"]
         ],
         "1711078653": [
             ["customers credit history", "search property title", "conduct property survey"]
@@ -160,19 +166,23 @@
             ["start", "choosemethod", "provide text", "generate text"]
         ],
         "196246889": [
-            ["items are scanned"]
+            ["items are scanned", "request payment", "receive cash payment", "record payment", "scan customer credit card", "receive payment from credit card company", "record payment"]
         ],
         "1491156805": [
-            ["check software"]
+            ["check software", "configure software", "test software", "reparation ok"]
         ],
-        "257661709": [],
+        "257661709": [
+            ["receive a/r clearance", "create pickup list", "check supplies", "create order list to supplier"]
+        ],
         "436856625": [
             ["loan application received", "assess loan risk", "check credit history", "assess eligibility", "reject application", "loan application rejected", "prepare acceptance pack", "send acceptance pack", "acceptance pack sent"]
         ],
         "1097564213": [
             ["check flight list", "select a flight to book", "fill personal information", "submit", "no suitable flight", "return to flightcentre search homepage", "change conditions to re-enquire"]
         ],
-        "924160287": [],
+        "924160287": [
+            ["sort invoices", "keep as 'non urgent' batch", "check if all information is available", "keep as 'urgent & non-compliant batch'", "check for red stamped urgent", "keep as returned from validation officer batch", "keep as 'urgent & compliant batch'"]
+        ],
         "2012991590": [
             ["identify business need", "gather business requirements", "create rfp", "select vendors", "submit rfp to vendors", "request response by set date", "receive proposal", "create scorecard", "score proposals", "downselect vendors to present proposals", "attend presentations", "rescore based on q&a sessions at presentations", "request pricing and scope adjustments as needed"]
         ],
@@ -180,7 +190,7 @@
             ["send request to complete invoice", "10 days later", "send a reminder latter", "disregard invoice", "make a follow-up call", "completed invoice received", "call the client", "send to experienced ssp member"]
         ],
         "1690774147": [
-            ["corresponding purchase order", "check quality, quantity", "return goods to vendor ", "send paper based note", "vendor", "confirm right delivery", "forward goods ", "send goods receipt form", "accounts payable", "employee"]
+            ["corresponding purchase order", "check quality, quantity", "return goods to vendor", "send paper based note", "vendor", "confirm right delivery", "forward goods", "send goods receipt form", "accounts payable", "employee"]
         ],
         "2092378826": [
             ["create product", "propose product", "approve product", "product approved", "reject product", "product rejected"]
@@ -195,16 +205,16 @@
             ["staple invoice entry form to invoice", "enter vendor name", "enter client name", "enter date ofarrival"]
         ],
         "2072539589": [
-            ["po request received", "obtain quote from supplier 1 ", "obtain quote from supplier 4", "obtain quote from supplier 2", "obtain quote from supplier 3", "obtain quote from supplier 5", "select best quote", "emit order", "order emitted"]
+            ["po request received", "obtain quote from supplier 1", "obtain quote from supplier 4", "obtain quote from supplier 2", "obtain quote from supplier 3", "obtain quote from supplier 5", "select best quote", "emit order", "order emitted"]
         ],
         "503442800": [
             ["first supervisor assesses financial aspect", "second supervisor assesses necessity and conformance", "reject request", "sign request"]
         ],
         "741573500": [
-            ["called taxi"]
+            ["called taxi", "taxi arrived", "airport check in", "online check in counter", "ticket counter", "security check", "browse", "do not browse", "reach boarding gate", "board flight"]
         ],
         "1127725818": [
-            ["day 1", "emit invoice to customer by email ", "day 7"]
+            ["day 1", "emit invoice to customer by email", "day 7", "automatic debit invoice", "day 8", "notify customer about failed debiting", "day 9", "day 10", "charge late fee", "day 14", "suspend internet service until payment received", "day 30", "close account", "apply disconnection fee", "debt recovery process", "process ended"]
         ],
         "1281817853": [
             ["register at online shop", "select atricle", "pay"]
@@ -219,41 +229,50 @@
             ["qas", "categorise approaching trauma case", "use ed computer", "call switchboard", "verbally group staff", "alert sent out", "alert received", "alert not receved"]
         ],
         "815617291": [
-            ["user required to provide telephone details"]
+            ["user required to provide telephone details", "select phone type", "select country code", "provide phone number", "determine if additional phone numbers will be provided", "select add new telephone link", "phone details provided"]
         ],
         "762683373": [
             ["start", "pre-admission", "patient admission", "detect and treatment", "discharge", "follow up", "end"]
         ],
-        "1666082353": [],
-        "1337402520": [
-            ["send for client action", "check if revised position profile returned", "follow up with client ", "receive actioned position profile"]
+        "1666082353": [
+            ["display previous position profiles created for role", "view sample position profiles", "create position profile", "modify position profile to suit", "display recent union and role specific changes", "sample role specific terms and conditions displayed", "modify terms and conditions to suit", "review documents", "fill in position contact information"]
         ],
-        "2103936055": [],
+        "1337402520": [
+            ["send for client action", "check if revised position profile returned", "follow up with client", "receive actioned position profile"]
+        ],
+        "2103936055": [
+            ["check payment from previous week", "receive payment", "update accounts receivable"]
+        ],
         "1433809608": [
-            [],
             ["sort per client", "process urgent cases first", "print report with all invoices recently entered for client", "return to data entry officer", "change status from parked to validated in sap"]
         ],
-        "136641527": [],
+        "136641527": [
+            ["re-sorting invoices per vendor", "re-sorting by invoice amount", "allocate in separate batches", "enter invoice", "tick \"invoice entered\"box", "invoice \"sparked\""]
+        ],
         "2058529681": [
             ["check if possible to update", "process answer", "notify customer", "reconfigure bike", "transfer bike configuration to fami"]
         ],
         "273930379": [
-            ["verify amount ", "automatically approved", "approvel supervisor", "rejection", "rejected", "approved", "approved"]
+            ["verify amount", "automatically approved", "approvel supervisor", "rejection", "rejected", "approved", "approved"]
         ],
         "535451196": [
             ["cookie has been found and corresponds to an open session", "present login screen", "enter username and login", "present couch-selection screen", "select couch you are sitting on", "present list-screen", "browse list and choose content to view", "present contextual remote"]
         ],
         "1368441113": [
-            ["select \"books\" from dropdown list", "enter search text ", "click \"go\""]
+            ["select \"books\" from dropdown list", "enter search text", "click \"go\""]
         ],
         "134863091": [
             ["examine claim", "write settlement recommendation", "check settlement recommendation"]
         ],
-        "1900005796": [],
-        "1021852499": [
-            ["purchase requested", "scan requested items"]
+        "1900005796": [
+            ["check urgency", "enter immediately", "put in high priority outbox", "information not available", "process normally"]
         ],
-        "534963988": [],
+        "1021852499": [
+            ["purchase requested", "scan requested items", "bag items", "request payment", "receive payment", "give customer receipt"]
+        ],
+        "534963988": [
+            ["from purchase order-to-delivery", "check purchase invoice formally", "check for factually correct purchase invoice", "approve purchase invoice", "trigger payment"]
+        ],
         "1866387347": [
             ["purchase order received", "check stock availability", "check raw materials availability", "purchase raw materials from supplier 1", "purchase raw materials from supplier 2", "manufacture product", "confirm order", "get shipment address", "ship product", "emit invoice", "archive order", "order fulfilled"]
         ],
@@ -261,7 +280,7 @@
             ["receive claim", "validate claim", "review damage", "receive reports", "determine settlement", "manager approval", "make payment", "denied", "notify customer", "close claim", "end"]
         ],
         "1427101328": [
-            []
+            ["check the script", "creates a script breakdown", "create a budget plan", "check the budget plan", "change the budget plan", "the subprocess produces the costume", "send the costumes to the dresser"]
         ],
         "2026169280": [
             ["setup world", "draw (3) overlord cards", "draw hero card", "buy equipment", "equip items", "choose starting point"]
@@ -273,7 +292,7 @@
             ["home loan application received", "register home loan application", "check liability", "check debts", "reject home loan", "home loan application rejected", "approve home loan", "sign loan", "home loan application completed"]
         ],
         "152991671": [
-            []
+            ["handle vacation request", "adjust vacation request", "send confirmation e-mail"]
         ],
         "307555165": [
             ["enter mango", "check the clothes", "pick a skirt", "pick a dress"]
@@ -281,27 +300,35 @@
         "2027644428": [
             ["create pdf", "send mail", "pay entrance", "send reminder email", "update registration & counts"]
         ],
-        "239040048": [],
-        "94639019": [],
+        "239040048": [
+            ["continue from previous step", "go to airport check-in desk", "undergo check-in via agent", "choose check-in technology", "check-in remotely (online)", "check-in at off-airport kiosk", "check-in at on-airport kiosk", "register baggage for online check-in", "select seat on flight", "finalise self check-in"]
+        ],
+        "94639019": [
+            ["sort invoices per client", "sort invoices per vendors", "staple ief"]
+        ],
         "769219161": [
             ["phone call received", "check if customer has all required information", "call ended", "register claim", "check if customer has all required information", "call ended", "register claim", "determine likelihood of the claim", "case closed", "assess claim", "reject claim", "initate payment", "advice claimant on reimbursement", "close claim", "claim closed"]
         ],
         "1627409593": [
             ["detect type2 diabetes", "confirm pregnancy (t1)", "confirm location (t2)", "trigger \"care pathway for people in hospital\" (sp2)", "end", "basic education and dietary advice (t3)", "complete questionnaire for medical conditions (t4)", "evaluate medical conditions (t5)", "education about high blood glucose (t6)", "assess and manage blood glucose control (sp3)", "education about cardiovascular risks (t7)", "assess and manage cardiovascular risks (sp4)", "education about long term complications (t8)", "assess and manage long term complications (sp5)", "education about how to maintain a healthy lifestyle (t9)", "create a healthy lifestyle based on patient preference (sp6)", "end", "trigger \"diabetes pathway for pregnancy\" (sp1)", "end"]
         ],
-        "759444129": [],
-        "733024940": [
-            ["start", "addimagedescription"]
+        "759444129": [
+            ["check compliance", "send to experienced ssp", "call client for required information", "return invoice to client", "invoice back from client", "send to staff member atthe beginning", "batch and allocate to data entry officer"]
         ],
-        "1455383864": [],
+        "733024940": [
+            ["start", "add image description", "upload image", "try again"]
+        ],
+        "1455383864": [
+            ["call client", "get update information", "update invoice", "return invoice via post", "check if response arrived", "send reminder"]
+        ],
         "568030606": [
-            ["sent results", "post on web site ", "store data", "publish official summary"]
+            ["sent results", "post on web site", "store data", "publish official summary"]
         ],
         "533899808": [
             ["verify input correctness", "verify account availability", "create new account", "request submission", "24h", "cancel account", "no submittion", "activate account", "complete activation", "success", "registration error"]
         ],
         "1803500741": [
-            ["register client", "analyse student profile", "find suitable vacant employers", "task or subprocess", "hold 1-on-1 consultation"]
+            ["register client", "analyse student profile", "find suitable vacant employers", "hold 1-on-1 consultation"]
         ],
         "529820238": [
             ["startprocess", "make appointment", "check in", "take vital signs"]
@@ -310,18 +337,20 @@
             ["specify time of the event", "specify location of the event", "add more information to the event", "specify name of the event", "select guests"]
         ],
         "1719775082": [
-            ["insurance request", "process raw data", "risk analysis with visiting the cars or flleet ", "risk analysis by programm", "risk index"]
+            ["insurance request", "process raw data", "risk analysis with visiting the cars or flleet", "risk analysis by programm", "risk index"]
         ],
         "1745058074": [
-            ["receive travel request", "check request", "manually handle request", "task or subprocess", "book attaction", "timeout", "manually book attraction", "send confirmation message"]
+            ["receive travel request", "check request", "manually handle request", "book bus", "book hotel", "write error log", "send unavailability message", "book attaction", "timeout", "manually book attraction", "send confirmation message"]
         ],
         "1881262423": [
             ["invoices arranged", "invoices sorted", "entry form stapled", "vendor name entered", "client name entered", "date of arrival entered", "end"]
         ],
         "1898327088": [
-            ["check securities", "refuse mortgage", "mortgage refused "]
+            ["check securities", "check building documents", "acquire more docs", "refuse mortgage", "mortgage refused", "accept mortgage"]
         ],
-        "440062101": [],
+        "440062101": [
+            ["look up vendor", "create and complete new vendor master record request form", "staple with invoice", "put in dedicated outbox", "new vendor master record received", "add vendor number to invoice entry form"]
+        ],
         "565700054": [
             ["start (chronic cough guideline", "patient inquiry", "current medication a", "current medication b", "initial assessment", "show assessment results and alternatives", "this guideline is not appropriate", "end (chronic cough guideline"]
         ],
@@ -331,51 +360,59 @@
         "1931368429": [
             ["check if position profile exists", "review position profile", "1.2.1 send inconsistent profile to client", "assess if significant changes were made", "update position form", "create position profile", "determine requirement for new business case", "create position form", "seek proper client approval", "receive client approval"]
         ],
-        "1147805498": [],
+        "1147805498": [
+            ["check current price", "deliver order list", "receive order invoice", "record invoice price", "produce invoice to members with new price"]
+        ],
         "395962325": [
             ["check vendor", "check sla in excel registry", "add sla information to invoice entry form"]
         ],
         "398863527": [
-            ["start"]
+            ["start", "provide user data", "login to twitter", "try again", "error end", "end"]
         ],
-        "1849808459": [],
+        "1849808459": [
+            ["enter vendoe", "enter client", "enter date of arrive", "check completeness", "ticks invoice complete box", "enter date of process", "return to postmail to send it to client"]
+        ],
         "1240889197": [
             ["button pressed", "show price", "2 minutes", "count coins", "print tickets", "return coins"]
         ],
         "238233911": [
             ["enter order", "confirm order placement", "ordered", "dismiss order", "not ordered"]
         ],
-        "663814305": [],
+        "663814305": [
+            ["enter details", "check completeness", "tick complete box", "check sla arrangements in excel", "enter invoicing processing date", "entry form completed"]
+        ],
         "1829764500": [
             ["appear for gate", "get score card", "apply in iitb", "sit for interview", "register for admission"]
         ],
         "237731775": [
-            ["paypal profile filling ", "fill e-mail adrress", "fill password ", "fill username", "multiple choice", "fill other information", "paypal profile filled"]
+            ["paypal profile filling", "fill e-mail adrress", "fill password", "fill username", "multiple choice", "fill other information", "paypal profile filled"]
         ],
         "1619344813": [
             ["deploy web tier", "deploy vm (mysql)", "deploy os (mysql)", "deploy mysql", "create sugarcrm database", "deploy db tier", "deploy vm (apache)", "deploy os (apache)", "deploy apache web server", "deploy php modules", "deploy sugarcrm app", "connect app to db"]
         ],
         "707873261": [
-            ["event detected", "event categorization", "lodge event", "lodge event ", "lodge event", "check previous occurance", "event correlation", "occurance not found", "contact vendor", "resolve event", "review event process execution"]
+            ["event detected", "event categorization", "lodge event", "lodge event", "lodge event", "check previous occurance", "event correlation", "occurance not found", "contact vendor", "resolve event", "review event process execution"]
         ],
         "1157103317": [
             ["3 weeks prior to callover day", "prepare callover list", "1 week prior to callover day", "contact parties", "set callover", "callover day", "prepare callover material", "hold callover", "callover held", "defer callover", "callover deferred"]
         ],
         "1026827159": [
-            ["check stock", "asses missing amount", "create bike order ", "receive bike ", "pay for bike"]
+            ["check stock", "asses missing amount", "create bike order", "receive bike", "pay for bike"]
         ],
-        "77036772": [],
+        "77036772": [
+            ["create job advertisement", "send advert to other agencies", "publish adverts on job sites"]
+        ],
         "1462088350": [
             ["application for tenure lodged", "enter application into tas", "send application file to relevant regional office", "investigate application", "check title administrative advice", "check native title", "check land valuation", "check survey plan registration", "reject application", "application file recieved", "file away"]
         ],
         "659257693": [
-            ["sort by client", "validate and print report", "no data entry mistake ", "entry correctly", "data entry mistake"]
+            ["sort by client", "validate and print report", "no data entry mistake", "entry correctly", "data entry mistake"]
         ],
         "1590746509": [
-            ["loan application approved", "prepare acceptance pack", "send acceptance pack", "receive signed documents", "verify repayment agreement", "cancel application", "approve application ", "notify application status ", "loan application completed"]
+            ["loan application approved", "prepare acceptance pack", "send acceptance pack", "receive signed documents", "verify repayment agreement", "cancel application", "approve application", "notify application status", "loan application completed"]
         ],
         "777696104": [
-            ["urgent record request form with invoice", "put into dedicated outbox ", "11am to 3 pm", "take to master data entry department", "within 24 hours", "finish record"]
+            ["urgent record request form with invoice", "put into dedicated outbox", "11am to 3 pm", "take to master data entry department", "within 24 hours", "finish record"]
         ],
         "233995501": [
             ["movement: 2 x [speed] attacks: 0", "movement: [speed] attacks: 1", "movement: 0 attacks: 2", "buy extra movement", "done", "attack", "movement action", "buy extra movement", "done", "attack", "movement action"]
@@ -383,7 +420,9 @@
         "381256096": [
             ["receive user's request", "check if an increase in performance is requested and if input is valid", "check in active directory if user is allowed to perform request", "send request to user's manager for approval", "receive manager's decision", "inform user", "check if all ressources are available", "inform roc at ibm", "inform user", "provide requested resources", "inform user", "inform user"]
         ],
-        "1662246858": [],
+        "1662246858": [
+            ["contact customer about backorder", "postpone shipment until back-ordered goods arrive", "order out-of-stock merchandise from vendor", "determine shipping time", "notify customer of expected shipping date", "contact customer when goods arrive", "order terminated"]
+        ],
         "1606710839": [
             ["setup user interface", "wait", "music download", "feature extraction", "train classifier", "classification", "print classification result"]
         ],
@@ -391,45 +430,53 @@
             ["review list of potential selection panelists", "determine those with subject matter expertise", "determine those with interview training", "determine those with behaviour interviewing techniques", "confirm availability", "book meeting time"]
         ],
         "624634784": [
-            []
+            ["arrange medical assesment", "preferred candidates medical assessment", "contact next candidate", "determine when offer can be made", "make formal verbal offer to candidate", "notify hr the outcome", "write formal offer to candidate", "prepare commencement pack", "sends letter and pack to candidate", "renegotaiate", "select another candidate", "close vacancy", "sends letter of appointment and commencement paperworkarrange for employee to commence work", "3 months", "choose another candidate", "candidate recruited"]
         ],
-        "1056720200": [],
+        "1056720200": [
+            ["delay 48h", "e-mail vote deadline warning", "delay 24h", "close voting", "moderate voting discussiion", "monitor issue votes"]
+        ],
         "1160877959": [
             ["enter the bar", "choose great music in the jukebox", "dance", "order drinks for you and your friends", "talk to the nice girl at the bar", "realize the guy beside her", "calm the boyfriend down", "drink the ordered drinks with your friends", "start a bar fight", "get thrown out of the bar", "go home"]
         ],
         "449905767": [
-            ["check completeness ", "tick yes", "tick no", "invoice returned"]
+            ["check completeness", "tick yes", "tick no", "invoice returned"]
         ],
         "231942911": [
             ["log in", "user logged in", "invalid username", "log invalid username", "page closed by user", "user not logged in", "maximum attempts exceeded", "freeze bank account", "account frozen"]
         ],
-        "938737434": [],
+        "938737434": [
+            ["prepare basic content", "marketing review", "prepare final version"]
+        ],
         "830754148": [
-            []
+            ["sort invoices per client", "sort invoices per vendor", "attach invoice entry form to the invoice"]
         ],
         "1318836402": [
             ["look for coffee powder", "take coke out of the fridge", "fill water into the coffee machine", "put powder into the machine", "power the machine", "fetch cups", "pour into cups and serve"]
         ],
-        "959329687": [],
+        "959329687": [
+            ["gathers correct quantity of goods", "puts items in box along with packing slip", "seals package", "put customers address on package"]
+        ],
         "893452564": [
-            ["start"]
+            ["start", "choose filter", "apply filter", "submit", "another filter", "end"]
         ],
         "1083445328": [
             ["choose seach type", "choose search filters", "search"]
         ],
         "712846042": [
-            []
+            ["receive invoice", "review invoice", "contact auckland accounts receivable", "coordinate new invoice", "allocate funds for payment", "send payment to auckland"]
         ],
         "1663461085": [
             ["plan for interviews", "generate preliminary schedule", "conduct pyschometric test", "make arrangements for round 4", "select preferred candidate", "recommend and obtain approvals", "notify other candidates of unsuccessful application", "decide on terms and condition for the selected candidate"]
         ],
         "757476904": [
-            ["order approval notified to retailer"]
+            ["order approval notified to retailer", "change request received", "count number of changes", "update order", "48 hours", "cancel request received", "cancel order", "order canceled", "order confirmation received", "handle order", "order handled"]
         ],
         "599162446": [
             ["delay 48h", "e-mail vote deadline warning", "delay 24h", "close voting", "moderate voting discussiion", "monitor issue votes"]
         ],
-        "1219076918": [],
+        "1219076918": [
+            ["receive crowd-request", "request the crowd", "upload crowd-solution", "send crowd-solution"]
+        ],
         "645176267": [
             ["send cost calculation to client", "receive answer client", "check and repair", "reperation", "client takes computer at home", "computer stays defect"]
         ],
@@ -440,17 +487,19 @@
             ["invoice information acquired", "enter sap vendor number on invoice entry form", "sort the invoices", "enter the invoices into sap", "tick invoice entered on invoice entry form", "invoice entered on sap"]
         ],
         "1999785051": [
-            []
+            ["get current genre list with sample ids", "merge genre lists", "download sample"]
         ],
         "1506177526": [
             ["new signup", "country/origin", "language", "choose account type", "enter details", "verify details", "verify email", "verify credit card/bank account"]
         ],
-        "107168023": [],
+        "107168023": [
+            ["goods to ship", "decide if normal post or special shipment", "check if extra insurance is necessary", "take out extra insurance", "fill in a post label", "request quotes from carriers", "asign a carrier and prepare paper work", "package goods", "add paperwork and move package to pick area", "goods available for pick"]
+        ],
         "781483404": [
-            ["insurance claim recorded ", "establish type", "check policy ", "check premium", "review validity ", "claim denied", "claim accepted", "emergency process", "determine size of claim", "assess claim"]
+            ["insurance claim recorded", "establish type", "check policy", "check premium", "review validity", "claim denied", "claim accepted", "emergency process", "determine size of claim", "assess claim"]
         ],
         "1714978021": [
-            ["check hardware", "hardware ok"]
+            ["check hardware", "hardware ok", "repair hardware", "test functionality", "hardware is ok"]
         ],
         "177133898": [
             ["communication and consultation", "establish the context", "risk assessment", "risk treatment", "monitoring and review"]
@@ -462,17 +511,15 @@
             ["check order", "process order", "send books", "update inventory", "complete order"]
         ],
         "1452579501": [
-            ["paypal profile form received"]
+            ["paypal profile form received", "fill paypal profile form", "send paypal profile form", "profile information not approved", "profile information confirm", "paypal profile form approved"]
         ],
         "1773957325": [
-            ["payment method required ", "enter payment method", "credit card ", "card number", "security code", "expiry date", "payment method entered"]
+            ["payment method required", "enter payment method", "credit card", "card number", "security code", "expiry date", "payment method entered"]
         ],
         "234560105": [
             ["information received", "classify information type", "unique identify information", "basic information", "serverl check mistake", "important crime and trade history record", "special checking systiem", "final check", "send information approved", "send information not approved", "information confirmed"]
         ],
         "1913341377": [
-            ["recategorize data ", "segment coding", "create categorized word clouds", "conseptualise categories", "conseptualise results", "write results"],
-            ["prepare interviews", "conduct interviews", "transcribe interviews", "finalize interview summaries"],
             ["extract data into predefined categories", "extract data into emerged categories", "wash data and create interview word clouds", "create participant profiles", "write summary"]
         ],
         "64531270": [
@@ -482,17 +529,16 @@
             ["invoice arrives", "checked for completeness", "scanned into computer", "payment made", "records stored electronically"]
         ],
         "713715327": [
-            ["triggers -proposals -contacts campaigns"],
-            ["triggers -inquiry -request for quotation -purchase oder", "presales -contracts -quotations -agreeements", "sales order processing -sales order", "shipping -picking document -outbound delivery -goods issue", "billing -customer invoice", "payment customer payment", "end"]
+            ["triggers proposals, contacts campaigns, inquiry, request for quotation, or purchase oder", "presales, contracts, quotations, agreeements", "sales order processing, sales order", "shipping, picking document, outbound delivery, goods issue", "billing, customer invoice", "payment, customer payment", "end"]
         ],
         "1517053129": [
-            ["enter username/password", "login", "user group detected/assigned"]
+            ["enter username/password", "login", "user group detected/assigned", "review marks/leave comments", "export class data", "import class data", "view groups", "edit student groups", "add assignment", "join/leave/manage group", "view marks", "review peers"]
         ],
         "2021820568": [
             ["manage your documents", "add document", "delete document", "edit attributes of document", "manage others", "categorize", "add document", "remove document"]
         ],
         "81065702": [
-            ["receive expense report", "create expense account"]
+            ["receive expense report", "create expense account", "review for pre-approval", "check for pre-approval", "7 days", "send approval in process email to submitter"]
         ],
         "154972530": [
             ["purchase department", "check completeness", "approved purchase request import to enterprise system", "select vendor", "generate purchase order", "account payable", "employees"]
@@ -501,7 +547,7 @@
             ["911 call received", "medical team deployed", "law enforcers deployed", "fireman deployed", "call ended"]
         ],
         "1062440994": [
-            ["receive purchase order ", "enter purchase order", "check inventory ", "accept order", "send shipment ", "route order to accounts receivable ", "reject order", "send rejection notice (due to inventory criteria"]
+            ["receive purchase order", "enter purchase order", "check inventory", "accept order", "send shipment", "route order to accounts receivable", "reject order", "send rejection notice (due to inventory criteria"]
         ],
         "1360637864": [
             ["empty data entry dept. outbox", "sort invoices by client", "print report", "compare report with actual paper invoice", "arrange invoices by priority  (high first)", "validate invoice", "mark \"invoice entered correctly\" checkbox", "set sap invoice status from \"parked\" to \"\"validated\"", "forward invoices to the registry"]
@@ -510,7 +556,7 @@
             ["click \"advanced search\"", "select category \"books\"", "enter title", "enter author", "enter keywords", "enter isbn", "enter publisher", "select subject", "select condition", "select format", "select binding", "select reader age"]
         ],
         "157346047": [
-            ["send main document", "send supplement a", "send supplement b", "send no additional supplements ", "send both supplement a and b"]
+            ["send main document", "send supplement a", "send supplement b", "send no additional supplements", "send both supplement a and b"]
         ],
         "699356058": [
             ["receive goods receipt form", "3 way check (purchase order, invoice, receipt)", "investigate, resolve conflict", "goods receipt", "triggered bank transfer", "send payment notice", "resolve errors with payment", "generate cheque"]
@@ -522,24 +568,25 @@
             ["analyze data", "produce bi reports", "review bi reports", "determine sales, promotion, and sourcing strategy"]
         ],
         "1690576308": [
-            [],
-            []
+            ["create meeting", "arrange meeting", "propose meeting date", "date rejected", "date approved", "hold meeting"]
         ],
         "1928615405": [
-            ["fema declares desaster ", "sba officials mail out applications to the victims who requested them ", "they set up temporary areas in the effected areas ", "receive applications ", "applications are taken to the regional office ", "data is entered into alcs and a paper file is created ", "physical file is prepared ", "shipped to the loss verification department ", "overnight mail to a property inspector who will inspect the property ", "physical file received finally by the loan officer", "loan denied ", "loan granted ", "advice applicants"]
+            ["fema declares desaster", "sba officials mail out applications to the victims who requested them", "they set up temporary areas in the effected areas", "receive applications", "applications are taken to the regional office", "data is entered into alcs and a paper file is created", "physical file is prepared", "shipped to the loss verification department", "overnight mail to a property inspector who will inspect the property", "physical file received finally by the loan officer", "loan denied", "loan granted", "advice applicants"]
         ],
         "2044869862": [
-            ["start", "retrieve message data", "check message integrity ", "generate error message ", "check for update since signed", "check lodgment acceptability", "establish requirements manual check", "produce lodgment verification report"]
+            ["start", "retrieve message data", "check message integrity", "generate error message", "check for update since signed", "check lodgment acceptability", "establish requirements manual check", "produce lodgment verification report"]
         ],
         "602090092": [
             ["begin process", "recieve online order", "verify online payment", "receive shipping details", "receive request", "receive payment", "receive shipping details", "pick up shipping order", "transport shipment to airport", "pick up shipment", "transport shipment to company", "end process "]
         ],
         "1855226859": [
-            ["add all monsters to waiting bag"]
+            ["add all monsters to waiting bag", "choose monster to activate", "monster turn", "delete monster from waiting bag"]
         ],
-        "83172456": [],
+        "83172456": [
+            ["individual effort", "individual performance", "organizational rewards", "personal goals"]
+        ],
         "398305754": [
-            ["receive travel refund request", "check request", "open new case", "retrieve case history", "check payment illegibility ", "contact beneficiary for the missing information ", "inform beneficiary about request rejection", "collect required signatures for payment"]
+            ["receive travel refund request", "check request", "open new case", "retrieve case history", "check payment illegibility", "contact beneficiary for the missing information", "inform beneficiary about request rejection", "collect required signatures for payment"]
         ],
         "668540641": [
             ["highlights error on the invoice entry form", "update a record of worng invoices", "wait untill end of the day", "send invoices back to data entry team"]
@@ -548,18 +595,22 @@
             ["check application for basic completeness", "sort applications", "disregard application", "add to rejection notification que"]
         ],
         "2131815076": [
-            ["send referee report form to referees"]
+            ["send referee report form to referees", "follow up receipt", "receive referee report form", "check completeness", "re-request referee report form", "check if recruitment agencies notified", "receive recruitment agency referee reports"]
         ],
         "1570086414": [
-            ["verify contents ", "perform quality inspection", "store materials", "send back to supplier"]
+            ["verify contents", "perform quality inspection", "store materials", "send back to supplier"]
         ],
-        "278446714": [],
+        "278446714": [
+            ["request new vendor master record", "stapled form into dedicated sap outbox", "provide master record forms to master data entry staff"]
+        ],
         "2031491564": [
             ["enter book title", "select condition of book", "enter desired price", "enter quantity", "enter shipping details", "sign in", "enter banking details", "confirm address & contact number", "key in verification pin", "submit listing"]
         ],
-        "839677548": [],
+        "839677548": [
+            ["detailed reports, data aggregation of business", "automated detection of customer presence and behavior", "update snapshots of key performance of customer presence and behavior", "update customer data"]
+        ],
         "277999488": [
-            ["script received ", "check script", "create script breakdown", "plan the budget"]
+            ["script received", "check script", "create script breakdown", "plan the budget"]
         ],
         "748893974": [
             ["analyze", "check consistency", "update", "analize"]
@@ -580,7 +631,7 @@
             ["check vacany type", "send thank you acknowledgement", "request confirmation of vacancy", "receive vacany confirmation"]
         ],
         "172025376": [
-            ["customer approaches counter"]
+            ["customer approaches counter", "acknowledge customer and ask for order", "enter customer order into pos terminal", "confirm customer order"]
         ],
         "875325269": [
             ["query customer account", "charge customer account", "prepare invoice", "prepare shipping"]
@@ -592,9 +643,11 @@
             ["purchase order received", "confirm order", "get shipment address", "send product", "send invoice", "receive payment", "archive order", "order fulfilled"]
         ],
         "335091452": [
-            ["record request form with invoice", "put into dedicated outbox ", "11am to 3 pm", "take to master data entry department", "1 to 5 days", "finish record"]
+            ["record request form with invoice", "put into dedicated outbox", "11am to 3 pm", "take to master data entry department", "1 to 5 days", "finish record"]
         ],
-        "2125236316": [],
+        "2125236316": [
+            ["2 minutes per invoice", "check completeness of invoices", "tick no in relervant box", "return invoices to client", "tick yes in relervant box", "check slas", "look up in excel file", "enter processed date", "highlighted invoices"]
+        ],
         "1435437324": [
             ["summarize results", "fulfil protocols", "prepare final analysis", "accept final summary"]
         ],
@@ -608,24 +661,25 @@
             ["verify seller's identity", "tell ebay how to pay seller fees", "select payment methods from buyers"]
         ],
         "844350813": [
-            ["receive purchase orde", "create invoice", "send invoice to customer"]
+            ["receive purchase order", "create invoice", "send invoice to customer", "receive payment", "call debtor to confirm payment", "accounts for funds received"]
         ],
-        "1070811881": [],
+        "1070811881": [
+            ["sort invioces by priority", "process immediately", "process non-urgent invoices", "invoices into high priority out-box"]
+        ],
         "1457857995": [
             ["enter invoice", "check invoice mismatches", "block invoice"]
         ],
         "2068773322": [
-            ["separate urgent invoices ", "prioritise remaining invoices by value", "prioritise remaining invoices by vendor", "collate invoices "]
+            ["separate urgent invoices", "prioritise remaining invoices by value", "prioritise remaining invoices by vendor", "collate invoices "]
         ],
         "1392425406": [
             ["collect credit informatio", "assess risk", "request approval", "reject credit", "accept credit"]
         ],
         "436885432": [
-            ["identify trip requirements", "select one way ", "select return ", "select departure city", "select destination city ", "select class", "select seat", "enter type and no of pax", "continue to flight selection"]
+            ["identify trip requirements", "select one way", "select return", "select departure city", "select destination city", "select class", "select seat", "enter type and no of pax", "continue to flight selection"]
         ],
         "413463764": [
-            ["follow-up for revised position profile"],
-            ["identify a position ", "confirm with client side management", "review existing position profile", "confirm validity of position profile", "end "]
+            ["identify a position", "confirm with client side management", "review existing position profile", "follow-up for revised position profile", "confirm validity of position profile", "end"]
         ],
         "246835126": [
             ["complete vendor master record request form", "attatch to invoice", "add to sap requests outbox"]
@@ -633,10 +687,11 @@
         "1241249804": [
             ["2.00 am", "database backup", "shrink database backup", "write log-record entry", "5.00 am", "handles any exception", "alert technical engineer"]
         ],
-        "107227795": [],
+        "107227795": [
+            ["chair assembly", "leg assembly", "4 legs 2 cross bars", "seat assembly", "2 side rails 1 cross bar 3 back supports", "back assembly"]
+        ],
         "1696720073": [
-            ["receives application for booking", "validates students identity", "checks vacancy of guest rooms", "approves application", "send approval mail to hall manager and student"],
-            ["receives application for booking", "send approval mail to hall manager and student"]
+            ["receives application for booking", "validates students identity", "checks vacancy of guest rooms", "approves application", "send approval mail to hall manager and student"]
         ],
         "515383757": [
             ["detect type2 diabetes", "confirm pregnancy (t1)", "confirm location (t2)", "basic education and dietary advice (t3)", "complete questionnaire for medical conditions (t4)", "evaluate medical conditions (t5)", "education about how to maintain a healthy lifestyle (t9)", "create a healthy lifestyle based on patient preference (sp6)", "education about long term complications (t8)", "assess and manage long term complications (sp5)", "end"]
@@ -651,17 +706,16 @@
             ["9am monday", "send email", "24 hours", "collect response", "consolidate response", "send interim report", "send final report"]
         ],
         "814976014": [
-            ["manual trigger (start", "check inventory levels ", "send late notice ", "notify accounts receivable", "prepare materials for shipment", "send out shipment", "send delivery notice "]
+            ["manual trigger (start", "check inventory levels", "send late notice", "notify accounts receivable", "prepare materials for shipment", "send out shipment", "send delivery notice"]
         ],
         "276010446": [
             ["recevie full amount", "assembling bike", "error: missing parts, bad bom, wrong conf. etc.", "find a solution", "process response from pit", "stop assembly order", "stop assembeling"]
         ],
         "1224748381": [
-            ["check availability bus", "book bus", "check availibility hotel", "book hotel", "check bookings ", "invoke service ", "booked", "cancel booking bus ", "write log message", "cancel booking hotel", "unavailable"]
+            ["check availability bus", "book bus", "check availibility hotel", "book hotel", "check bookings", "invoke service", "booked", "cancel booking bus", "write log message", "cancel booking hotel", "unavailable"]
         ],
         "1683015602": [
-            ["check inventory", "inventory available", "confirm purchase order", "shipp product", "send invoice", "inventory not available ", "reject purchase order "],
-            ["check inventory", "inventory available", "confirm purchase order", "shipp product", "send invoice", "inventory not available ", "reject purchase order "]
+            ["check inventory", "inventory available", "confirm purchase order", "shipp product", "send invoice", "inventory not available", "reject purchase order"]
         ],
         "1948430901": [
             ["start_event", "notify_customer", "reservation_uncompleted", "process_customer_request", "book_hotel", "book_flight", "book_car", "arrange_online_payment", "register_payment", "send_tickets_to_customer", "reservation_completed"]
@@ -673,7 +727,7 @@
             ["check computer", "check hardware", "repair hardware"]
         ],
         "378476235": [
-            ["end of the week", "generate and send payment report ", "individual client", "ssp\"s accounts receivable department", "registry"]
+            ["end of the week", "generate and send payment report", "individual client", "ssp\"s accounts receivable department", "registry"]
         ],
         "151939743": [
             ["process shipping order request", "shipping order rejected", "shipping order confirmed", "send status"]
@@ -681,50 +735,50 @@
         "870623884": [
             ["acquire raw materials", "raw materials aquiredmaterials unavailable", "notify unavailability to customer", "order unfulfilled due to materials unavailability", "order cancelation request received", "determine cancelation penalty", "notify penaltyto customer", "continue cancelation request received", "order canceled", "charge penalty to customer", "order unfulfilled due to customer cancelation", "48 hours", "stop cancelation request received", "order not canceled"]
         ],
-        "505448326": [],
+        "505448326": [
+            ["data requirements", "data design", "data supply", "data support"]
+        ],
         "1341740389": [
             ["check if possible to cancel", "process answer", "get cancellation fee", "transfer fami's cancellation fee", "get refund from fami", "trasfer refund to customer", "notify customer"]
         ],
         "756606943": [
-            ["check customer credit", "has customer made payment for previous week?", "update customer file with bad credit rating", "inform customer of bad credit rating", "update customer file and discontinue ", "accept payment for order"]
+            ["check customer credit", "has customer made payment for previous week?", "update customer file with bad credit rating", "inform customer of bad credit rating", "update customer file and discontinue", "accept payment for order"]
         ],
         "1593396733": [
-            ["search in 'neighborhood' dvd lib webapp", "call neighbor and if any collect dvd", "use trust card as collateral", "watch dvds", "2-3 days later", "bring back dvds", "get trust card back", "lender sends reminder for dvds", "some days later", "if still no return, change trust card collateral into money", "bring back dvds", "get trust card back"],
             ["want to watch dvd", "search at phils' dvd list", "call phil and ask for lending dvd", "check alternative night activities", "collect dvd from phil", "watch dvds", "2-3 days later", "bring back dvds"]
         ],
         "1206205153": [
             ["parent login", "my account", "order history", "add child"]
         ],
         "1327249572": [
-            ["create offer"]
+            ["create offer", "check address", "request address", "receive address", "present offer", "send offer"]
         ],
         "931444929": [
-            ["login required ", "login", "apple id", "password", "user account logged in "]
+            ["login required", "login", "apple id", "password", "user account logged in "]
         ],
         "2079312326": [
-            []
+            ["identify departing flight", "change date", "select departing flight", "identify returning flight", "change date", "select return flight"]
         ],
         "210487869": [
             ["incoming cv", "review cv", "send negative email", "invite", "interview"]
         ],
         "1184251599": [
-            ["start"]
+            ["start", "self evaluation", "hr evaluation", "pm evaluation", "end"]
         ],
         "1096368809": [
-            ["sort invoices by client", "print report - all recently entered invoices by client", "compare report information with invoice ", "data entry error", "change status of invoice to 'validated'"]
+            ["sort invoices by client", "print report - all recently entered invoices by client", "compare report information with invoice", "data entry error", "change status of invoice to 'validated'"]
         ],
         "1092355869": [
             ["bus booking", "bus booking fails", "hotel booking", "hotel booking fails", "attraction booking", "timeout", "manually handled", "confirmation", "successful", "log message: transaction cancelled", "cancelled"]
         ],
         "886362416": [
-            ["receive loan request", "check credit", "create application", "evaluate loan", "inform customer of denial", "process request"],
-            ["evaluate request by manager", "inform customer of denial", "process request"]
+            ["receive loan request", "check credit", "create application", "evaluate loan", "evaluate request by manager", "inform customer of denial", "process request"]
         ],
         "781088930": [
             ["new application arrives", "establish evaluation committee", "evaluate aapplication", "prepare rejection letter", "prepare documentation for boarding", "notify applicant"]
         ],
         "696384590": [
-            ["loan demand", "payment ratio", "credit score", "verify credit risk ", "special consideration", "approve loan", "loan approved"]
+            ["loan demand", "payment ratio", "credit score", "verify credit risk", "special consideration", "approve loan", "loan approved"]
         ],
         "809883750": [
             ["invoice validation", "compare details with paper invoices", "error found", "highlight error on invoice entry form", "at end of day", "return invoice to data entry officer", "keep errors number per data entry officer"]
@@ -748,23 +802,22 @@
             ["send appointment approval form", "receive approval", "checks approval", "sends approval and mandatory documentation to hr services", "scan and record form into govsource system", "complete business case", "attach business case", "hr receive documentations", "contacts ts for explanation on times", "authorize appointment", "authorize appointment"]
         ],
         "637371609": [
-            ["3 days"],
-            ["receive student application", "register student"]
+            ["receive student application", "register student", "analyse student profile", "student profile revision consultation", "search for jobs", "3 days", "notify student", "assist with application", "interview preparation consultation"]
         ],
         "809037596": [
             ["move to adjecent square cost 1", "pick up token in your square cost 0", "use glyph cost 1", "drink one potion cost 1", "re-equip cost 2", "open door cost 2", "reveal new area (and play lore)", "open chest cost 2"]
         ],
         "454566392": [
-            ["registration request", "check user info", "wrong info", "verify matching company", "non-existing company", "verify pro", "12 days ", "flag company", "company unreachable", "register user", "create template page", "confirmation to company and user"]
+            ["registration request", "check user info", "wrong info", "verify matching company", "non-existing company", "verify pro", "12 days", "flag company", "company unreachable", "register user", "create template page", "confirmation to company and user"]
         ],
         "532049691": [
-            ["parent log i", "select day to order lunch"]
+            ["parent log in", "main menuselect day to order lunch", "choose food to order from", "system cutoff", "view my orders", "confirm order", "order removed", "checkout", "paypal", "prepaid", "credit card", "to erp system for processing after 24-48 hours"]
         ],
         "673847167": [
             ["trigger production as per work order instructions and contract terms", "process manufacture work order notification", "analyze notification and send confirmation"]
         ],
         "194092341": [
-            ["billing details required ", "enter billing details", "title", "first name", "last name", "address", "postcode", "city", "state", "phone", "billing details entered"]
+            ["billing details required", "enter billing details", "title", "first name", "last name", "address", "postcode", "city", "state", "phone", "billing details entered"]
         ],
         "1940511870": [
             ["set up vacany in govsource", "create advertisement", "determine application close date", "request approval from next level manager", "publish advertisement", "check nature of position", "notify external recruitment agencies", "grant external recruitment agencies access to govsource"]
@@ -773,16 +826,16 @@
             ["master data needed", "create request for vendor master records", "staple request to invoice", "place in outbox for requesting master record creation", "request made "]
         ],
         "1361522417": [
-            ["choose a payment option"]
+            ["choose a payment option", "enter a gift card & promotional code", "enter credit card details", "confirm shipping address", "confirm order", "confirm payment"]
         ],
         "751598303": [
-            ["apple id details  required ", "enter apple id details", "date of birth", "email", "password", "verify password", "security question", "answer", "details entered"]
+            ["apple id details  required", "enter apple id details", "date of birth", "email", "password", "verify password", "security question", "answer", "details entered"]
         ],
         "1532414623": [
-            ["provide new sales lead"]
+            ["provide new sales lead", "review sales lead", "review customer rating", "review profitability", "provide additional details", "store lead in crm system"]
         ],
         "899223717": [
-            ["capture data from fm", "capture data from jamendo"]
+            ["capture data from fm", "capture data from jamendo", "get music ids for genre", "parse data (xml) in database", "download sample"]
         ],
         "118830670": [
             ["check for urgent invoices", "determine sla", "separate urgent invoices", "determine sla", "place in high priority outbox", "all urgent invoices processed", "determine sla", "place in regular outbox"]
@@ -794,10 +847,10 @@
             ["member submits the order", "check payment", "validate the suppliers", "consolidate the orders", "order supples", "delivery the order"]
         ],
         "544904963": [
-            ["receive mailed application ", "receive emailed application ", "receive govsource application ", "print hard copy", "delegate to team members"]
+            ["receive mailed application", "receive emailed application", "receive govsource application", "print hard copy", "delegate to team members"]
         ],
         "1600076242": [
-            ["negotiating price", "stop the haggling ", "build bike configuration"]
+            ["negotiating price", "stop the haggling", "offer installments", "build bike configuration", "pay full amount", "receive bike"]
         ],
         "11111685": [
             ["attendance request receive", "email advisor 1 requesting attendance", "email advisor 2 requesting attendance", "email advisor 3 requesting attendance", "reply to central office"]
@@ -806,29 +859,31 @@
             ["choose payment option", "try out (24h)", "become a member", "fullfil form", "registration error", "registration successfully completed"]
         ],
         "1723606443": [
-            []
+            ["check sla per client", "identify it per excel file", "identify urgent invoices", "highlight and place red stamp"]
         ],
         "59797137": [
             ["album search requested", "search for album", "found", "not found", "search completed"]
         ],
-        "1563731835": [],
+        "1563731835": [
+            ["invoice received", "open & categorise invoices", "send invoice(s) to admin officer(s)"]
+        ],
         "187274549": [
-            ["school login "]
+            ["school login", "select school to order for", "main menu", "select days/menus to order from", "system cutoff", "view my orders", "confirm order", "order removed", "to erp system for processing after 48 hours"]
         ],
         "1976110816": [
             ["prepare internal data", "prepare proposals", "prepare issues", "monitor requests", "process issue", "cancelation issue deadline", "cancel request", "cancel selected issue", "order issues", "sent issues summary"]
         ],
         "931353209": [
-            ["ts recruitment manager seeking for potential vacancy ", "recruitment manager identify a position", "rm confirm with client management ", "review position profile with hr representative and client-end ", "pass position profile to client-end manager", "receive position description ", "sometimes follow up with client-end management ", "rm consult with next level manager or client hr services", "complete and create or change postion form for approval with client's hr representative ", "reviewed terms and conditions", "approved by client-end manager ", "approve by next level manager", "rm complete documentation ", "assemble a selection panel", "confirm availability of recruitment panel", "submit business case to client's hr services and management ", "staff requisition is ready"],
-            ["ts recruitment manager informed by word of mouth", "recruitment manager identify a position", "rm confirm with client management ", "review position profile with hr representative and client-end ", "pass position profile to client-end manager", "receive position description ", "sometimes follow up with client-end management ", "rm consult with next level manager or client hr services", "complete and create or change postion form for approval with client's hr representative ", "reviewed terms and conditions", "approved by client-end manager ", "approve by next level manager", "assemble a selection panel", "confirm availability of recruitment panel"],
-            ["client-end manager inform ts recruitment manager", "recruitment manager identify a position", "rm confirm with client management ", "review position profile with hr representative and client-end ", "pass position profile to client-end manager", "receive position description ", "sometimes follow up with client-end management ", "rm consult with next level manager or client hr services", "complete and create or change postion form for approval with client's hr representative ", "reviewed terms and conditions", "approved by client-end manager ", "approve by next level manager", "assemble a selection panel", "confirm availability of recruitment panel"]
+            ["ts recruitment manager seeking for potential vacancy", "ts recruitment manager informed by word of mouth", "client-end manager inform ts recruitment manager", "recruitment manager identify a position", "rm confirm with client management", "review position profile with hr representative and client-end", "pass position profile to client-end manager", "receive position description", "sometimes follow up with client-end management", "rm consult with next level manager or client hr services", "complete and create or change postion form for approval with client's hr representative", "reviewed terms and conditions", "approved by client-end manager", "approve by next level manager", "rm complete documentation", "assemble a selection panel", "confirm availability of recruitment panel", "submit business case to client's hr services and management", "staff requisition is ready"]
         ],
-        "1790363357": [],
+        "1790363357": [
+            ["decision to have a marketing team review", "marketing review is needed (3 days)", "create final version (4 days)"]
+        ],
         "2013986367": [
             ["objection", "initial processing", "ask customer a question", "answer from customer", "processing with customer answer", "final report", "one week", "processing without customer answer", "final report"]
         ],
         "655016606": [
-            ["go to personal data", "view", "edit"]
+            ["go to personal data", "view", "edit", "change password", "change others", "accept changes"]
         ],
         "56436613": [
             ["customer", "make offer", "receive offer", "registrate offer loss", "registrate info competitor", "info registered", "no offer", "process offer", "weekly", "send process offer", "receive cancellation", "7 days"]
@@ -857,14 +912,24 @@
         "1234506742": [
             ["send offer manual", "contact customer for address", "reception adress", "present offer", "offer prestents", "present offer", "offer presents"]
         ],
-        "1968047195": [],
-        "1753657768": [],
-        "236600171": [],
+        "1968047195": [
+            ["select filter (sepia, b-w, ..)", "apply filter", "remove modified image file", "show preview", "remove filter", "save image"]
+        ],
+        "1753657768": [
+            ["rm start planing for interviews-round 3", "check applicant location", "arrange interview logistics by rm and casual admin assistant", "provide panels a structured interview template", "undergo a psychometric test", "select the candidate", "need of second interview is possible", "end of round 3"]
+        ],
+        "236600171": [
+            ["verify stock quantities", "create p.o. of necessary goods for vendor", "goods on backorder", "pack goods", "prepare to ship p.o.", "prepare shipment"]
+        ],
         "757858217": [
             ["1.3.1 determine terms & conditions", "check position classification", "request approval from next level manager", "request approval from client-end manager", "check if new position", "complete required paperwork", "develop business case", "submit to client's hr services for approval", "submit to client management for approval"]
         ],
-        "97857755": [],
-        "804027997": [],
+        "97857755": [
+            ["meeting the bride at bride's home", "thank bride's parents", "taking the bride to groom's home", "the bride serves tea respectfully to groom's parents", "ancestor worship", "holding wedding reception", "teasing the bride on wedding night"]
+        ],
+        "804027997": [
+            ["wedding ring purchasing", "choosing wedding dress (buy or loan)", "purchasing wedding candy, cigarette and wine", "loaning wedding cars from vehicle company", "purchasing flowers, firecrackers and other items for wedding ceremony"]
+        ],
         "1380319410": [
             ["determine genres", "determine amount of samples per genre", "capture data from webservice", "create feature vector", "choose settings", "prepare data for training and classification", "train algorithm", "classification", "print classification result"]
         ],
@@ -875,23 +940,19 @@
             ["distribute applications to recruitment panel", "email evaluation sheet to recruitment panel", "3.1.1.1 follow up receipt of evaluation sheets", "consolidate rankings", "distribute consolidated ranking sheet", "schedule round 1 panel meeting session"]
         ],
         "1136852889": [
-            [],
-            []
+            ["customer chooses movie (a)", "Aasign customer seats (b)", "get money (c)", "give ticket (d)", "cancel order (e)"]
         ],
         "688014530": [
             ["download file", "pay for download", "upload file", "backup file"]
         ],
         "1337150022": [
-            ["invoices", "open and categories invoices", "sort invoices by client", "staple invoices entry form ", "sort invoices by vendor"]
+            ["invoices", "open and categories invoices", "sort invoices by client", "staple invoices entry form", "sort invoices by vendor"]
         ],
         "1623862756": [
             ["receive guarantee", "assembling bike", "find a solution", "process response from pit", "stop assembeling", "receiving rest of payment", "give provision to sell"]
         ],
         "1943679901": [
-            ["costume fetched"]
-        ],
-        "2052143604": [
-            []
+            ["costume fetched", "check costumes", "fix costumes", "organize costumes", "support clothing preparation"]
         ],
         "277720178": [
             ["coffee time", "ask guest for coffe wish", "prepare milk", "prepare coffee", "server coffee"]
@@ -900,8 +961,7 @@
             ["demand planning", "forecast netting", "safety stock calculation", "current stock levels update", "planning data loading", "weekly planning run", "production plan loading", "local production planning"]
         ],
         "1128235269": [
-            ["check availability bus", "book bus", "check availability hotel", "book hotel", "check bookings", "invoke service", "sent confirmation", "cancel booking"],
-            []
+            ["check availability bus", "book bus", "check availability hotel", "book hotel", "check bookings", "invoke service", "sent confirmation", "cancel booking"]
         ],
         "324977484": [
             ["receive previous weeks payment", "document bad credit against accounts receivable and members file", "inform members of bad credit status and suspend future order processing", "members and accounts receiveable file updated and order processed", "credit check completed"]
@@ -910,15 +970,17 @@
             ["calculateprice", "arrangepayment", "createsidedish", "bakepizza", "packageorder", "deliverpizza"]
         ],
         "101230737": [
-            ["create model using a modeling language ", "set task durations & gateway probabilities "]
+            ["create model using a modeling language", "set task durations & gateway probabilities", "assign resources", "simulate the model", "evaluate results", "redesign process"]
         ],
         "746138041": [
             ["send request to all partners", "1 week deadline", "review proposals for 2 best", "disregard proposal", "detail planning"]
         ],
         "1096749244": [
-            ["start internal checks ", "check whether any future major land action planned ", "check survey plan registration ", "check title administrative advice", "check native title ", "check parcel ", "check land valuation ", "application review "]
+            ["start internal checks", "check whether any future major land action planned", "check survey plan registration", "check title administrative advice", "check native title", "check parcel", "check land valuation", "application review "]
         ],
-        "198605208": [],
+        "198605208": [
+            ["receive member order", "check member account", "check previous order payment clearance", "receive previous weeks payment", "produce payment clearance"]
+        ],
         "45067321": [
             ["look up sap vendor number", "create request for new vendor master record", "fill in new vendor master record form", "move invoice to vendor master record request outbox", "add sap vendor number to invoice entry form"]
         ],
@@ -943,7 +1005,9 @@
         "520973452": [
             ["sort invoice by client", "sort invoice by vendor", "attach invoice entry form", "fill in invoice entry form", "check invoice completeness"]
         ],
-        "805167653": [],
+        "805167653": [
+            ["add vendor to ief", "tick invoice", "change status to \"parked\"", "put in department outbox"]
+        ],
         "1411450999": [
             ["planning panel discussion", "obtaining standard form", "fix venue and time", "plan internal event", "contacting event provider", "inviting participants"]
         ],
