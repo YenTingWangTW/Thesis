@@ -1,0 +1,338 @@
+{
+    "0_0": {
+        "~": ["application received", "extract and convert gpa", "check plagiarism of motivation letter", "read and score motivation letter", "preliminary ranking assigned", "application marked as \"failed\""]
+    },
+    "0_1": {
+        "send pdf and other certified documents hard copies": ["request for hard copies and signed pdf", "print pdf document", "sign pdf document", "put pdf and other certified documents hard copies in envelope", "send documents by post"]
+    },
+    "0_2": {
+        "resubmit application": ["deficiency message received", "open application form ", "correct identified deficiencies", "submit updated and corrected documents ", "updated application saved"]
+    },
+    "1_0": {
+        "accept or decline": ["decide application offer", "declination message", "acceptation message", "wait for kul if higher ranked applicants decline offer", "application ended"]
+    },
+    "2_0": {
+        "check-in baggage": ["3 hrs before departure", "drop baggage"]
+    },
+    "2_1": {
+        "check-in baggage": ["3 hrs before departure", "drop baggage"]
+    },
+    "3_0": {
+        "finish order": ["payment processed", "draw up completion mail", "wait for arrival of customer in studio", "after 7 days ", "pick-up reminder sent ", "hand over printouts", "pack and send printouts", "dropbox link added to completion mail", "voucher added to completion mail", "completion mail drawn up"]
+    },
+    "5_0": {
+        "record status credits": ["flight booked", "add booking record", "booking cancelled", "flight cancelled", "flight boarded", "add status credits", "flight record closed"]
+    },
+    "6_0": {
+        "calculation price": ["info customer received", "overview info", "calculate installation costs", "calculate price hardware, software & firmware", "calculate daily fee per watcher", "first price calculated"]
+    },
+    "7_0": {
+        "year 1": ["enroll", "submit paper for international publication", "submit the examination committee form ", "handle doctoral seminar", "report progress"]
+    },
+    "7_1": {
+        "year 2": ["enroll"]
+    },
+    "7_2": {
+        "year 1, year 2": ["enroll", "report progress", "handle doctoral seminar "]
+    },
+    "7_3": {
+        "year 3": ["participate in international conferences", "follow courses", "participate in other (elective) modules"]
+    },
+    "7_4": {
+        "year 2, year 3": ["enroll", "predefence", "start public defense", "public defence"]
+    },
+    "7_5": {
+        "year 4": ["submit research proposal", "take comprehensive exam", "submit comprehensive exam form"]
+    },
+    "11_0": {
+        "handle po": ["po registered", "next working day", "check availability", "items not available", "send po response", "response sent"]
+    },
+    "12_0": {
+        "process order": ["order processing requested", "edit additional requests", "prepare physical photos", "drop enveloppe in counter", "place photo on dropbox", "order processing completed"]
+    },
+    "13_0": {
+        "process invoice": ["invoice required", "calculate \"no-show fee\"", "calculate \"no-order fee\"", "calculate \"order fee\"", "draw up invoice", "invoice sent"]
+    },
+    "14_0": {
+        "log in": ["validate username", "invalid username", "set attempts counter to 0", "validation server not available"]
+    },
+    "15_0": {
+        "self check in": ["start", "ready to boarding flight", "proceed to document check ", "go through immigration", "proceed to security check", "go to boarding gate", "end"]
+    },
+    "15_1": {
+        "board flight": ["start", "ready to check in", "check in with mobile", "scan 2d barcode", "check in with kiosk", "print and collect boarding pass", "prepare boarding flight", "web check-in", "print boarding pass", "bring boarding pass to airport", "end"]
+    },
+    "17_0": {
+        "adjustments": ["store customer & booking details", "assign booking to\u00a0 a photographer", "order booked"]
+    },
+    "17_1": {
+        "booking process": ["clean up pictures", "edit remaining pictures", "arrange pictures into photo gallery"]
+    },
+    "18_0": {
+        "create notification": ["notification created", "read to whom the mail was sent", "find e-mail of the right consultant", "find e-mail of the right advisor", "send e-mail to inbox"]
+    },
+    "18_1": {
+        "send notification": ["the inquiry is new", "read e-mail information", "read mail content", "write content as body of notif", "read sender's e-mail address ", "identify staff member from database", "write name staff member as \"sender\" in notif", "read mail subject", "write subject as head of notif", "notification created"]
+    },
+    "19_0": {
+        "check-in baggage": ["3 hrs before departure", "drop baggage"]
+    },
+    "20_0": {
+        "photo session": ["photo session initiated", "wait for customer", "maximum wait time", "customer absent", "do photo session", "upload pictures", "photo session finished"]
+    },
+    "25_0": {
+        "process payment": ["invoice processed", "wait for invoice payment ", "mark invoice as paid", "invoice paid", "after 7 days", "invoice reminder sent"]
+    },
+    "26_0": {
+        "complete formalities/administrative tasks": ["patient registration is complete", "check receipt card", "provide receipt card", "provide number card", "separate vaccinees into their respective priority groups", "check paperwork for complications "]
+    },
+    "31_0": {
+        "registration": ["start registration", "register application", "send approval notification", "send notification of automatic processing to applicant", "send note of automatic processing to esc", "registration complete", "send to cro for manual handling", "case administration"]
+    },
+    "31_1": {
+        "esc installation": ["start esc installation", "order preparation"]
+    },
+    "32_0": {
+        "registration": ["start registration", "register application", "send approval notification", "send note of automatic processing to esc", "send notification of automatic processing to applicant", "registration complete", "send to cro for manual handling", "case administration"]
+    },
+    "32_1": {
+        "esc installation": ["start esc installation", "order preparation"]
+    },
+    "40_0": {
+        "insert internal training process": ["date mismatch", "collect all internal training certificates", "updated bk-training-system", "end insert internal training"]
+    },
+    "41_0": {
+        "bill minimum amount": ["make minimum invoice", "delete photo gallery", "wait until payment received"]
+    },
+    "42_0": {
+        "wait for customer response ": ["requested standard information "]
+    },
+    "43_0": {
+        "handle printouts": ["print pictures", "put pictures in envelope", "bring pictures to photo studio"]
+    },
+    "45_0": {
+        "check-in at kiosk": ["start", "check document", "immigration ", "end"]
+    },
+    "45_1": {
+        "check-in luggage": ["3 hours before departure", "drop baggage", "end"]
+    },
+    "45_2": {
+        "board flight": ["60 mins before departure", "print boarding pass", "collect boarding pass", "end"]
+    },
+    "49_0": {
+        "booking process": ["choose training", "already training booked", "request for availability", "receive answer", "overbooked", "book training", "already training booked", "book training", "end booking routine", "wednesday after second monday of the month ", "terminate election", "overbooked", "training missing", "no desired training available"]
+    },
+    "52_0": {
+        "course completion procedure": ["start of evalutation period/exams", "take exam for course", "resit course in same year", "retake course next year", "passed course"]
+    },
+    "54_0": {
+        "submit application": ["start creating submission", "fill in application form", "~", "submit application", "submission submitted"]
+    },
+    "54_1": {
+        "send signed pdf and certified copies of previous degree and academic transcripts by post": ["request for signed pdf and certified copies of previous degree and academic transcripts received", "print pdf document", "sign pdf document", "place all required documents in envelope", "send documents by post"]
+    },
+    "54_2": {
+        "classify candidates": ["collected gpa information received", "analyse standard gpa scores", "classify as medium candidate", "classify as top candidate", "classify as unacceptable candidate", "classification completed"]
+    },
+    "56_0": {
+        "~": ["request for hard copies and signed pdf", "print pdf document", "sign pdf document", "put pdf and other certified documents hard copies in envelope", "send documents by post"]
+    },
+    "56_1": {
+        "send pdf and other certified documents hard copies": ["deficiency message received", "open application form ", "correct identified deficiencies", "submit updated and corrected documents ", "updated application saved"]
+    },
+    "58_0": {
+        "arrange colloquium appointment": ["no examiner evaluates the bachelor thesis with at least a sufficient grade", "bachelor thesis failed", "admission to the colloquium", "coordinate colloquium date with examiners"]
+    },
+    "62_0": {
+        "manage medical records 5.2.4": ["patient admitted 5.2.1", " validate the patient's demographics 5.2.1.1.1", " validate the guarantor arrangements 5.2.1.1.2", " validate the patient's insurance 5.2.1.1.3", "medical record created"]
+    },
+    "62_1": {
+        "admit patient 5.2.1 ": ["payors invoiced 11.2.2", "reconcile patient account 11.2.3.4", "account reconciled"]
+    },
+    "62_2": {
+        "create the medical record 5.2.1.1": ["medical record created 5.2.1.1", "update medical records 5.2.4.1 ", "review completeness of records 5.2.4.2 ", "medical record managed"]
+    },
+    "62_3": {
+        "process accounts receivable 11.2.3": ["account renegotiated", "adjust account for instalments 11.2.4.5.1", "adjust account for balance write-off 11.2.4.5.2", "account adjusted"]
+    },
+    "62_4": {
+        "negotiate with default accounts 11.2.4.3": ["patient contact initiated", "discuss financial circumstances 11.2.4.3.1", " arrange installment plan 11.2.4.3.2", "waive account 11.2.4.3.3", "account renegotiated"]
+    },
+    "62_5": {
+        "process adjustments 11.2.4.5": ["medical record managed 5.2.4", "capture patient charges 11.2.2.2", "code patient account 11.2.2.3", "prepare invoice for payor 11.2.2.4", "transmit invoice to payor 11.2.2.6", "payor invoiced"]
+    },
+    "62_6": {
+        "prepare invoice for payor 11.2.2.4": ["patient arrives", "create the medical record 5.2.1.1 ", "records current"]
+    },
+    "62_7": {
+        "invoice payors 11.2.2": ["patient account coded 11.2.2.3", "prepare invoice for insurers or guarantor 11.2.2.4.1", "prepare invoice for patient 11.2.2.4.2", "invoice prepared"]
+    },
+    "63_0": {
+        "process booking request": ["booking requested", "check available photographers", "get alternative times", "propose alternative photo shoot days", "confirm booking", "assign one of the photographers", "booking complete", "unfortunate"]
+    },
+    "65_0": {
+        "serve customer": ["additional products or service requested", "review ordered products", "ship goods ", "activate database alert to engineers", "archive changes ", "customer served"]
+    },
+    "67_0": {
+        "verificate application": ["start verification", "english language verification test", "receive response academic verification from recognition agency ", "accepted", "reject application", "application rejected"]
+    },
+    "68_0": {
+        "check-in luggage": ["3 hrs before departure", "drop baggage"]
+    },
+    "69_0": {
+        "register customer sub-process ": ["documentation received ", "check government database ", "unpaid insurance", "change vehicle status ", "notify customers of wait time", "customer registration completed "]
+    },
+    "71_0": {
+        "customer reply": ["update claim and risk system"]
+    },
+    "71_1": {
+        "claim & risk subsystem": ["3 months", "no reply"]
+    },
+    "72_0": {
+        "check-in baggage": ["3 hrs before departure", "drop baggage"]
+    },
+    "73_0": {
+        "photo shoot session": ["start photoshooting", "in-studio ", "on-location", "photo session done"]
+    },
+    "75_0": {
+        "order mobile phone": ["find out if customer older than 18", "successful"]
+    },
+    "75_1": {
+        "order tariff": ["search for phone", "procure", "successful", "search for alternative phone ", "successful"]
+    },
+    "76_0": {
+        "check-in lauguage": ["open 3 hrs before departure", "drop baggage", "end"]
+    },
+    "77_0": {
+        "elective modules": ["follow skill course", "review scientific papers", "teach a course", "write working paper", "get consent of supervisor", "publish working papers", "publish paper in conference proceedings ", "publish in journal", "present in a workshop or seminar", "3 years from start "]
+    },
+    "77_2": {
+        "take course": ["task or subprocess", "submit form supervisory committee ", "submit supervisory committee ", "submit course request", "take course ", "submit comprehensive exam form", "take comprehensive exam", "write literature review paper ", "present literature review paper", "complete a reading course", "submit comprehensive exam form", "submit research proposal ", "18 months from start ", "submit preliminary doctoral booklet", "1 year from start ", "take course ", "2 years from start ", "follow seminar on \u2018scientific integrity for starting phds\u2019 ", "submit international paper", "write international paper", "go to conference", "present first doctoral seminar", "upload first seminar form", "2 years from start ", "present second doctoral seminar", "upload second seminar form", "3 years from start "]
+    },
+    "78_0": {
+        "policy handling": ["assessment classified", "check policy", "check policy", "claim rejected and letter sent", "check damages", "phone garage", "approve charges", "notified customer"]
+    },
+    "78_1": {
+        "payment handling": ["approved charges", "schedule payment", "claim processed and letter sent"]
+    },
+    "80_0": {
+        "fulfill order": ["check stock", "pick stock", "ship order"]
+    },
+    "84_0": {
+        "~": ["receive student's application documents", "extract and convert student gpa from previous degree", "check motivational letter for plagiarism "]
+    },
+    "84_1": {
+        "send pdf and other certified documents hard copies": ["request for hard copies and signed pdf", "print pdf document", "sign pdf document", "put pdf and other certified documents hard copies in envelope", "send documents by post"]
+    },
+    "84_2": {
+        "resubmit application": ["deficiency message received", "open application form ", "correct identified deficiencies", "submit updated and corrected documents ", "updated application sent"]
+    },
+    "88_0": {
+        "check-in baggage": ["3 hrs before departure", "drop baggage"]
+    },
+    "89_0": {
+        "photo shoot session": ["start photoshooting", "in-studio ", "on-location", "photo session done"]
+    },
+    "91_0": {
+        "self check in": ["start", "ready to boarding flight", "proceed to document check ", "go through immigration", "proceed to security check", "go to boarding gate", "end"]
+    },
+    "91_1": {
+        "board flight": ["start", "ready to check in", "check in with mobile", "scan 2d barcode", "check in with kiosk", "using laptop or computer", "with printed boarding pass", "print and collect boarding pass", "prepare boarding flight", "end"]
+    },
+    "96_0": {
+        "treat patient": ["request treatment received", "triage time almost passed", "no worse patients", "begin auscultation", "inspect for anamnesis", "research clinically", "send patient/sample to the right department", "patient treated"]
+    },
+    "97_0": {
+        "essensvorbereitung": ["f\u00fcr 1 person mehr kochen", "essen zubereiten"]
+    },
+    "98_0": {
+        "examine application": ["hoc examination", "calculate gpa", "perform plagiarism check", "read motivation letter & assign score", "make preliminary ranking", "application failed"]
+    },
+    "99_0": {
+        "plan first meeting": ["information received"]
+    },
+    "99_1": {
+        "plan first meeting": ["information received"]
+    },
+    "100_0": {
+        "manage training participation": ["on wednesday", "check maximum participants reached", "check priority work area", "add employee to internal training", "assign to other internal trainings", "add employee to internal training", "on friday", "update bk-training-system", "send participant list to responsible employee", "inform rebooked employees"]
+    },
+    "101_0": {
+        "create new notification": ["identify sender", "write subject and content in seperate fields", "assign report to advisor", "assign report to consultant"]
+    },
+    "102_0": {
+        "process order": ["order received", "handle special request", "perform additional editing", "handle printouts", "place digital copies in dropbox folder", "order processed"]
+    },
+    "104_0": {
+        "customer po ": ["no po received after 25 days", "send reminder", "no po received after 30 days"]
+    },
+    "105_0": {
+        "make booking": ["book flight", "flight", "book hotel", "travel booked", "hotel"]
+    },
+    "107_0": {
+        "locker opening": ["parcel payment status checked", "open locker", "opening error", "collection failed"]
+    },
+    "111_0": {
+        "invoicing": ["calculate invoice amount", "produce invoice", "send invoice"]
+    },
+    "111_1": {
+        "order fulfillment": ["mark order as paid", "send dropbox link", "pack and send enveloppe", "prepare pickup", "wait for pickup", "send reminder"]
+    },
+    "113_0": {
+        "check-in at kiosk": ["start", "check document", "immigration ", "end"]
+    },
+    "113_1": {
+        "check-in luggage": ["3 hours before departure", "drop baggage", "end"]
+    },
+    "113_2": {
+        "board flight": ["60 mins before departure", "print boarding pass", "collect boarding pass", "end"]
+    },
+    "115_0": {
+        "analysis": ["eye test", "color vision test", "drug and alcohol test", "physical exam", "mental exam", "hearing", "blood", "urine", "weight", "doctor examination", "physical exam", "mental exam", "fingerprint", "physical exam", "mental exam"]
+    },
+    "118_0": {
+        "cutting subprocess": ["leather hides cut", "change die  ", "cut linings 1 ", "change die", "cut linings 2", "change die ", "cut linings 3", "change die", "cut linings 4", "change die ", "cut insole 1", "change die", "cut insole 2", "change die ", "cut insole 3", "change die", "cut insole 4", "change die ", "cut shoe leather 1", "change die", "cut shoe leather 2", "change die ", "cut shoe leather 3", "change die", "cut shoe leather 4", "transfer into components", "cutting finished"]
+    },
+    "118_1": {
+        "stitching subprocess": ["pairs received", "staple insole ", "last toe and heel", "pound sole", "cement sole", "inspect and pack shoes ", "shoes completed"]
+    },
+    "118_2": {
+        "lasting subprocess": ["basket received", "prefit shoes", "prefit shoes", "prefit shoes", "prefit shoes", "receive kit", "join shoes", "join shoes", "join shoes", "receive kit", "ornamente shoes", "ornamente shoes", "receive kit", "basket transferred"]
+    },
+    "119_0": {
+        "handle special request": ["special request asked ", "formulate special request clarification", "special request clarification sent", "answered special request clarification received ", "review customer's answer", "special request handled"]
+    },
+    "122_0": {
+        "submit initial enrollment ": ["supervisory committee appointed", "oral presentation on the research undertaken  ", "written presentation on the research undertaken ", "first progress report sent "]
+    },
+    "122_1": {
+        "submit first progress report": ["write a literature review paper", "complete a formal comprehensive exam", "complete a reading course", "submit comprehensive exam form", "comprehensive exam submitted"]
+    },
+    "122_2": {
+        "determine result first progress report ": ["received too late submission", "sent e-mail to phd student with subject \"submitted too late!\"", "sent e-mail to supervisor with subject \"submitted too late!\"", "check how many times phd student was late", "approve submission", "submission accepted", "decline submission", "submisson declined "]
+    },
+    "122_3": {
+        "comprehensive exam": ["authorization received", "enroll for truncus communis ", "enroll for supplementary part ", "enroll for doctoral programme ", "pay course fees ", "initial enrollment submitted"]
+    },
+    "122_4": {
+        "handle too late submission": ["first progress report received", "check progress made in doctoral research ", "check the advances made in academic ability and research maturity ", "give a good result", "given good result", "give a bad result", "give a bad result", "given bad result"]
+    },
+    "123_0": {
+        "certified degree": ["application review started", "perform plagiarism check on motivation letter ", "read motivation letter ", "assign score to letter", "mark with \"failed due poor letter\"", "mark with \"failed due plagiarism\"", "convert to standard gpa scores", "application review finished", "mark with \"failed due low gpa\"", "problem recognized"]
+    },
+    "129_0": {
+        "master thesis": ["research topic", "meet supervisor", "organize references"]
+    },
+    "130_0": {
+        "boocking process": ["choose training", "already training booked", "call external trainer", "book training", "end booking routine", "wednesday after second monday of the month ", "terminate election", "already training booked"]
+    },
+    "131_0": {
+        "make booking": ["book flight", "book hotel"]
+    },
+    "132_0": {
+        "create notification": ["notification created", "read to whom the mail was sent", "find e-mail of the right consultant", "find e-mail of the right advisor", "write e-mail address as \"receiver\" in notification", "assignment finished"]
+    },
+    "132_1": {
+        "assign inquiry": ["the inquiry is new", "read e-mail information", "read mail content", "write content as body of notification", "read sender's e-mail address ", "identify staff member from database", "write name staff member as \"sender\" in notification", "read mail subject", "write subject as head of notification", "notification created"]
+    }
+}

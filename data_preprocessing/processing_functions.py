@@ -38,7 +38,7 @@ def process_subprocess_no_label(shapes):
     shapes_id = {}
     follows = {}
     flow = {}
-    subprocess_name = ""
+    subprocess_name = []
     outputs = [shapes_id, follows, flow]
     for shape in shapes:
         shape_stencil = shape['stencil']['id']
@@ -49,17 +49,19 @@ def process_subprocess_no_label(shapes):
                 follows[shape_ID] = outgoingShapes
             
         if shape_stencil in ['Pool', 'Lane']:
-            results = process_subprocess(shape['childShapes'])
+            results, names = process_subprocess_no_label(shape['childShapes'])
             for o, r in zip(outputs, results):
                 o.update(r)
-                
+            subprocess_name += names
+
         if shape_stencil == 'Subprocess':
             results = process_flow(shape['childShapes'])
             for o, r in zip(outputs, results):
                 o.update(r)
             if 'name' in shape['properties'] and not shape['properties']['name'] == "":
-                subprocess_name = shape['properties']['name'].replace('\n', ' ').replace('\r', '').replace('  ', ' ')
-            
+                name = shape['properties']['name'].replace('\n', ' ').replace('\r', '').replace('  ', ' ')
+                subprocess_name.append(name)
+
     return outputs, subprocess_name
 
 def process_subprocess(shapes):
