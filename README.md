@@ -7,7 +7,7 @@ This repository contains the implementation of the *automatic labeling approach 
 
 Process abstraction is an important task to reduce the complexity of (discovered) process models, which enables process stakeholders to better comprehend a modeled process or gain insights from it. Numerous abstraction techniques exist that address this task by detecting sets of low-level process steps that can be grouped into higher-level business activities. However, identifying such groups does not yet lead to useful abstracted process models, since a proper process model needs suitable labels for each of its activities.
 
-## Labeling Approach
+## Labeling Approach and Evaluation
 
 <!-- We applied 2-step training and few optimization steps tailored to solve the domain-specifc task with the limited labeled data at hand. For detailed information, please refer to the thesis report or presentation slides. -->
 
@@ -23,10 +23,7 @@ To illustrate the labeling approach, Jupyter notebooks are provided to guide eac
 - Automatic evaluation
     - [Auto eval using BERTScore](https://github.com/YenTingWangTW/Thesis/blob/master/Pegasus_Finetuned_and_Automatic_Evaluation.ipynb)
 
-- Data processing
-    - [Process model parsing](https://github.com/YenTingWangTW/Thesis/blob/master/data_preprocessing/data_processing.py)
-
-- Human Evaluation
+- Human evaluation
     - [Survey](https://github.com/YenTingWangTW/Thesis/blob/master/human_eval_survey.pdf)
     - [Results](https://github.com/YenTingWangTW/Thesis/blob/master/human_eval_and_error_analysis.pdf)
 
@@ -36,7 +33,7 @@ To illustrate the labeling approach, Jupyter notebooks are provided to guide eac
 
 ## Reference
 
-- [Data collection](https://zenodo.org/record/3758705#.YzFdCOxBxQI)
+- [BPMAI model collection](https://zenodo.org/record/3758705#.YzFdCOxBxQI)
 - [Pegasus model](https://arxiv.org/abs/1912.08777)
 - [BERTScore](https://github.com/Tiiiger/bert_score)
 
