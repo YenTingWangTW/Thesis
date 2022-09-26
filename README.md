@@ -27,18 +27,18 @@ To illustrate the labeling approach, Jupyter notebooks are provided to guide eac
     - [Process model parsing](https://github.com/YenTingWangTW/Thesis/blob/master/data_preprocessing/data_processing.py)
 
 - Human Evaluation
-    - [Survey]()
-    - [Results]()
+    - [Survey](https://github.com/YenTingWangTW/Thesis/blob/master/human_eval_survey.pdf)
+    - [Results](https://github.com/YenTingWangTW/Thesis/blob/master/human_eval_and_error_analysis.pdf)
 
 - Detailed information
-    - [Presentation slides]()
-    - [Thesis report]()
+    - [Presentation slides](https://github.com/YenTingWangTW/Thesis/blob/master/high-level_activity_label_generation.pdf)
+    - [Thesis report](https://github.com/YenTingWangTW/Thesis/blob/master/thesis.pdf)
 
 ## Reference
 
-- [Data collection]()
-- [Pegasus model]()
-- [BERTScore]()
+- [Data collection](https://zenodo.org/record/3758705#.YzFdCOxBxQI)
+- [Pegasus model](https://arxiv.org/abs/1912.08777)
+- [BERTScore](https://github.com/Tiiiger/bert_score)
 
 <!-- ## Environment Setup
 
