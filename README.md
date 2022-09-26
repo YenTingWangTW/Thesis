@@ -11,7 +11,7 @@ Process abstraction is an important task to reduce the complexity of (discovered
 
 <!-- We applied 2-step training and few optimization steps tailored to solve the domain-specifc task with the limited labeled data at hand. For detailed information, please refer to the thesis report or presentation slides. -->
 
-To illustrate the labeling approach, Jupyter notebooks are provided to guide each training step.
+To illustrate the labeling approach, Jupyter notebooks are provided to guide each training step and recreate results produced in the thesis.
 
 - Training steps (should be implemented as ordered below)
     - Control-flow relation learning (optional step)
